@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f798bbcf-a07b-4d4c-8f32-1037ab50dc96" name="Mark@SHTANKY 2012-06-22 17:41:33" runUser="Shtanky\Mark" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="d25656e5-eac1-495e-87e3-370cd44268f9">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="Mark_SHTANKY 2012-06-22 17_41_33">
+      <DeploymentItem filename="C:\Users\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\ReferencedAssemblies\MathNet.Iridium.dll" />
+      <DeploymentItem filename="C:\Users\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\bin\Release\TournamentSimulation.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-22T17:41:33.2408000-05:00" queuing="2012-06-22T17:41:37.5834000-05:00" start="2012-06-22T17:41:37.7314000-05:00" finish="2012-06-22T17:41:39.8502000-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetCompetitorsTest" storage="c:\users\mark\documents\sailing\matchracing\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\release\tournamentsimulation.test.dll" id="1496d454-fd0c-ff9a-4517-4a31603de54a">
+      <Execution id="85906ea0-80bb-4266-931a-bcb86421f054" />
+      <TestMethod codeBase="C:/Users/Mark/Documents/Sailing/MatchRacing/TournamentFormatResearch/Simulation/SimulationSolution/TournamentSimulation.Test/bin/Release/TournamentSimulation.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCompetitorsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1496d454-fd0c-ff9a-4517-4a31603de54a" executionId="85906ea0-80bb-4266-931a-bcb86421f054" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="85906ea0-80bb-4266-931a-bcb86421f054" testId="1496d454-fd0c-ff9a-4517-4a31603de54a" testName="GetCompetitorsTest" computerName="SHTANKY" duration="00:00:00.0211670" startTime="2012-06-22T17:41:37.9824000-05:00" endTime="2012-06-22T17:41:39.7872000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="85906ea0-80bb-4266-931a-bcb86421f054">
+    </UnitTestResult>
+  </Results>
+</TestRun>

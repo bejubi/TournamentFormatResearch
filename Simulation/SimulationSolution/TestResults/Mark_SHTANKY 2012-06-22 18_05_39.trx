@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b3d71e0f-22e9-4c27-ac64-c83bb2e3b4ab" name="Mark@SHTANKY 2012-06-22 18:05:39" runUser="Shtanky\Mark" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="d25656e5-eac1-495e-87e3-370cd44268f9">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="Mark_SHTANKY 2012-06-22 18_05_39">
+      <DeploymentItem filename="C:\Users\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\bin\Debug\TournamentSimulation.dll" />
+      <DeploymentItem filename="C:\Users\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\ReferencedAssemblies\MathNet.Iridium.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-22T18:05:39.0142000-05:00" queuing="2012-06-22T18:05:39.2352000-05:00" start="2012-06-22T18:05:39.2732000-05:00" finish="2012-06-22T18:05:39.6582000-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetEvenlySpacedCompetitorsTest" storage="c:\users\mark\documents\sailing\matchracing\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="02f25655-6b87-834e-40d1-58dddcde206f">
+      <Execution id="5a00e51d-a743-4070-94af-5a93aa9963fa" />
+      <TestMethod codeBase="C:/Users/Mark/Documents/Sailing/MatchRacing/TournamentFormatResearch/Simulation/SimulationSolution/TournamentSimulation.Test/bin/Debug/TournamentSimulation.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetEvenlySpacedCompetitorsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="02f25655-6b87-834e-40d1-58dddcde206f" executionId="5a00e51d-a743-4070-94af-5a93aa9963fa" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="5a00e51d-a743-4070-94af-5a93aa9963fa" testId="02f25655-6b87-834e-40d1-58dddcde206f" testName="GetEvenlySpacedCompetitorsTest" computerName="SHTANKY" duration="00:00:00.0144426" startTime="2012-06-22T18:05:39.2852000-05:00" endTime="2012-06-22T18:05:39.6332000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="5a00e51d-a743-4070-94af-5a93aa9963fa">
+    </UnitTestResult>
+  </Results>
+</TestRun>

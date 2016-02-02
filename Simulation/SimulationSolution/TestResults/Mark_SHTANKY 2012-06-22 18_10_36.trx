@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="3c61f062-776d-4591-b273-1990c3496e16" name="Mark@SHTANKY 2012-06-22 18:10:36" runUser="Shtanky\Mark" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local Test Run" id="d25656e5-eac1-495e-87e3-370cd44268f9">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="Mark_SHTANKY 2012-06-22 18_10_36">
+      <DeploymentItem filename="C:\Users\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\bin\Debug\TournamentSimulation.dll" />
+      <DeploymentItem filename="C:\Users\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\ReferencedAssemblies\MathNet.Iridium.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-06-22T18:10:36.8894000-05:00" queuing="2012-06-22T18:10:37.3164000-05:00" start="2012-06-22T18:10:37.3244000-05:00" finish="2012-06-22T18:10:37.6444000-05:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="GetEvenlySpacedCompetitorsTest" storage="c:\users\mark\documents\sailing\matchracing\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="02f25655-6b87-834e-40d1-58dddcde206f">
+      <Execution id="1aad3ce2-1432-4c9f-a58c-c236cf9c4531" />
+      <TestMethod codeBase="C:/Users/Mark/Documents/Sailing/MatchRacing/TournamentFormatResearch/Simulation/SimulationSolution/TournamentSimulation.Test/bin/Debug/TournamentSimulation.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetEvenlySpacedCompetitorsTest" />
+    </UnitTest>
+    <UnitTest name="GetRandomCompetitorsTest" storage="c:\users\mark\documents\sailing\matchracing\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="d99f92fa-60e0-5d41-0bec-ac6af37b641c">
+      <Execution id="2cc654b4-b1b1-4a7c-92cd-3a003d4e242e" />
+      <TestMethod codeBase="C:/Users/Mark/Documents/Sailing/MatchRacing/TournamentFormatResearch/Simulation/SimulationSolution/TournamentSimulation.Test/bin/Debug/TournamentSimulation.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetRandomCompetitorsTest" />
+    </UnitTest>
+    <UnitTest name="GetStandardCompetitorsTest" storage="c:\users\mark\documents\sailing\matchracing\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="de833cff-6770-bf57-9f5d-585c9a90a940">
+      <Execution id="bb21bb2e-6fe1-4a4c-9710-2c52a519ba70" />
+      <TestMethod codeBase="C:/Users/Mark/Documents/Sailing/MatchRacing/TournamentFormatResearch/Simulation/SimulationSolution/TournamentSimulation.Test/bin/Debug/TournamentSimulation.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetStandardCompetitorsTest" />
+    </UnitTest>
+    <UnitTest name="GetCompetitorsTest" storage="c:\users\mark\documents\sailing\matchracing\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="1496d454-fd0c-ff9a-4517-4a31603de54a">
+      <Execution id="ccfb2b2e-bdfc-4ac1-805d-d08c39f9a557" />
+      <TestMethod codeBase="C:/Users/Mark/Documents/Sailing/MatchRacing/TournamentFormatResearch/Simulation/SimulationSolution/TournamentSimulation.Test/bin/Debug/TournamentSimulation.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="GetCompetitorsTest" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d99f92fa-60e0-5d41-0bec-ac6af37b641c" executionId="2cc654b4-b1b1-4a7c-92cd-3a003d4e242e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de833cff-6770-bf57-9f5d-585c9a90a940" executionId="bb21bb2e-6fe1-4a4c-9710-2c52a519ba70" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02f25655-6b87-834e-40d1-58dddcde206f" executionId="1aad3ce2-1432-4c9f-a58c-c236cf9c4531" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1496d454-fd0c-ff9a-4517-4a31603de54a" executionId="ccfb2b2e-bdfc-4ac1-805d-d08c39f9a557" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2cc654b4-b1b1-4a7c-92cd-3a003d4e242e" testId="d99f92fa-60e0-5d41-0bec-ac6af37b641c" testName="GetRandomCompetitorsTest" computerName="SHTANKY" duration="00:00:00.0154793" startTime="2012-06-22T18:10:37.3284000-05:00" endTime="2012-06-22T18:10:37.5954000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2cc654b4-b1b1-4a7c-92cd-3a003d4e242e">
+      <Output>
+        <DebugTrace>Competitor A: Rating 61
+Competitor B: Rating 49
+Competitor C: Rating 34
+Competitor D: Rating 51
+Competitor E: Rating 7
+Competitor F: Rating 65
+Competitor G: Rating 83
+Competitor H: Rating 16
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bb21bb2e-6fe1-4a4c-9710-2c52a519ba70" testId="de833cff-6770-bf57-9f5d-585c9a90a940" testName="GetStandardCompetitorsTest" computerName="SHTANKY" duration="00:00:00.0023926" startTime="2012-06-22T18:10:37.5954000-05:00" endTime="2012-06-22T18:10:37.6054000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bb21bb2e-6fe1-4a4c-9710-2c52a519ba70">
+      <Output>
+        <DebugTrace>Competitor A: Rating 80
+Competitor B: Rating 70
+Competitor C: Rating 60
+Competitor D: Rating 50
+Competitor E: Rating 40
+Competitor F: Rating 30
+Competitor G: Rating 20
+Competitor H: Rating 10
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1aad3ce2-1432-4c9f-a58c-c236cf9c4531" testId="02f25655-6b87-834e-40d1-58dddcde206f" testName="GetEvenlySpacedCompetitorsTest" computerName="SHTANKY" duration="00:00:00.0004735" startTime="2012-06-22T18:10:37.6054000-05:00" endTime="2012-06-22T18:10:37.6154000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1aad3ce2-1432-4c9f-a58c-c236cf9c4531">
+    </UnitTestResult>
+    <UnitTestResult executionId="ccfb2b2e-bdfc-4ac1-805d-d08c39f9a557" testId="1496d454-fd0c-ff9a-4517-4a31603de54a" testName="GetCompetitorsTest" computerName="SHTANKY" duration="00:00:00.0005115" startTime="2012-06-22T18:10:37.6194000-05:00" endTime="2012-06-22T18:10:37.6264000-05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccfb2b2e-bdfc-4ac1-805d-d08c39f9a557">
+    </UnitTestResult>
+  </Results>
+</TestRun>

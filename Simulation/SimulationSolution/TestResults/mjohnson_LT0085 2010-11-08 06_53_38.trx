@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9e77c40c-22ff-4676-83a7-110f9ebcfa23" name="mjohnson@LT0085 2010-11-08 06:53:38" runUser="SKYLINE\mjohnson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="d25656e5-eac1-495e-87e3-370cd44268f9">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment runDeploymentRoot="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TestResults\mjohnson_LT0085 2010-11-08 06_53_38">
+      <DeploymentItem filename="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\ReferencedAssemblies\MathNet.Iridium.dll" />
+      <DeploymentItem filename="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\bin\Debug\TournamentSimulation.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Completed">
+    <Counters total="55" executed="55" passed="55" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <Times creation="2010-11-08T06:53:38.4682694-06:00" queuing="2010-11-08T06:53:42.5585000-06:00" start="2010-11-08T06:53:42.7885131-06:00" finish="2010-11-08T06:53:45.0256411-06:00" />
+  <TestDefinitions>
+    <UnitTest name="GetTournamentRoundRanksTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="b547ce59-3b72-8a12-72bc-00abb5e18c1a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7392e89d-6afe-475f-a6e2-d65668a06a9a" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.KoSf5PfFiTRSTest, TournamentSimulation.Test" name="GetTournamentRoundRanksTest" />
+    </UnitTest>
+    <UnitTest name="RunTest_KoTS_BadSeeding" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="04f72c19-9cad-ec02-aaff-22ac89ced51b">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9ba1c47f-5b71-4c47-9cf0-8ddb3a0d56d6" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_KoTS_BadSeeding" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrKoSf5PfFiTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="f3303c3f-348f-94ea-c6b8-5b8bfd84c569">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d09355b2-6730-4833-a33c-71e6aafce53c" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrKoSf5PfFiTS" />
+    </UnitTest>
+    <UnitTest name="CollectionTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="020a724b-f5e7-78e3-1009-3af9baac1c4e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="fb0671cc-3bdb-48f8-90b5-91386900506a" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="CollectionTest" />
+    </UnitTest>
+    <UnitTest name="BreakTiesTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="21a1feb2-1cde-dd9a-6d5c-10467ef608bf">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TournamentSimulation.dll" />
+      </DeploymentItems>
+      <Execution id="df6fc3e4-e4e4-4da7-b34a-65a4f78476b9" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RrTRSTest, TournamentSimulation.Test" name="BreakTiesTest" />
+    </UnitTest>
+    <UnitTest name="RunTest_Rating" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="3199b915-760c-c36d-33e7-2b19ef399891">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6b1d123d-0e4f-466d-8966-08e49d620f7b" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.MatchTest, TournamentSimulation.Test" name="RunTest_Rating" />
+    </UnitTest>
+    <UnitTest name="GenerateResultTest_MultipleRoundsPartialRoundNonRandomMatches" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="7a0e8ef5-8b60-dd26-f0db-cb7b4cf40406">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="f0eb6d03-00bb-4023-81ec-620e1003df17" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RrTRSTest, TournamentSimulation.Test" name="GenerateResultTest_MultipleRoundsPartialRoundNonRandomMatches" />
+    </UnitTest>
+    <UnitTest name="GenerateResultTest_MultipleRoundsNonRandomMatches" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="7e652a61-bcc9-d623-85be-6494caab3f0d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a4898c68-629e-4532-b174-f6ad7fd0e1fe" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RrTRSTest, TournamentSimulation.Test" name="GenerateResultTest_MultipleRoundsNonRandomMatches" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrKo1TS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="31aa54ec-53a2-75ac-ec9d-f08fcdee817f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6ce1e5d1-54fd-4035-adad-2b4f87192b92" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrKo1TS" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrTS_1_FirstTo2" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="f6ed9d7e-4779-9fe2-3b8e-3ec4774e0ac1">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="04733fdf-5891-4bab-b7df-366ffc56008e" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrTS_1_FirstTo2" />
+    </UnitTest>
+    <UnitTest name="RunTest_KoTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="72fed2d4-9aab-081b-0f6c-89d8e14a9acb">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="d7c450d2-f670-4539-b277-3f539bf2a597" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.TournamentTest, TournamentSimulation.Test" name="RunTest_KoTS" />
+    </UnitTest>
+    <UnitTest name="GenerateResultTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="6427cbf4-7792-6b4f-f099-3ec4de7ab419">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c1b32a88-d8f0-4366-b657-79c486ab1099" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.KoSf5PfFiTRSTest, TournamentSimulation.Test" name="GenerateResultTest" />
+    </UnitTest>
+    <UnitTest name="RunTest_SimpleRandomMatchStrategy" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="6277c25a-b013-ce8e-722d-151c4acbbd54">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="649e9ec9-33c5-4035-a922-eeed8ffa8e61" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.MatchTest, TournamentSimulation.Test" name="RunTest_SimpleRandomMatchStrategy" />
+    </UnitTest>
+    <UnitTest name="RoundRobinStructureTest_OddCompetitors" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="630243ab-fb7e-2ebb-50f3-fa540975ee87">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="11ba3fe4-16d8-41af-89a1-6120b8ea8df3" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="RoundRobinStructureTest_OddCompetitors" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrTS_2_5" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="94a96c4a-f931-ee80-2f08-5ba18992177a">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="6f8681a7-ae1e-4b6c-a139-5919d76532e0" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrTS_2_5" />
+    </UnitTest>
+    <UnitTest name="RoundRobinStructureTest_ManyCompetitors" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="b43cc4dc-fe5a-8cc4-38c1-27b794b8fdc7">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b5fb325b-fab2-41e3-9226-162dfa9bef2d" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="RoundRobinStructureTest_ManyCompetitors" />
+    </UnitTest>
+    <UnitTest name="GetCompetitorRanksTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="f1748cb5-cb19-d6ee-e51f-f78e555ad3e6">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="840f28da-51ef-4eba-98b3-9d5aed7da370" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorPointsTest, TournamentSimulation.Test" name="GetCompetitorRanksTest" />
+    </UnitTest>
+    <UnitTest name="GetEvenlySpacedCompetitorsTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="02f25655-6b87-834e-40d1-58dddcde206f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a7f2ec30-0f3a-4838-8204-6a6262c81d45" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test" name="GetEvenlySpacedCompetitorsTest" />
+    </UnitTest>
+    <UnitTest name="GenerateResultTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="9d577338-1b47-1af0-ef57-e42108ba755d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ebeaa951-dc16-4a1e-8a2e-2f774825783c" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RandomTSTest, TournamentSimulation.Test" name="GenerateResultTest" />
+    </UnitTest>
+    <UnitTest name="RunTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="de235143-01df-111f-553f-fff134c78391">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5fb5cc11-cd92-470c-b16d-f5c00b9809e7" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.TournamentTest, TournamentSimulation.Test" name="RunTest" />
+    </UnitTest>
+    <UnitTest name="TestRandomIntegers" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="efc89dee-9410-1b04-2883-e3226a9044ed">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9ec18ee2-978b-4f2d-9594-3d658d4bfc7f" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="TestRandomIntegers" />
+    </UnitTest>
+    <UnitTest name="RunTest_RoundRobinThenQuarterfinals_NonRandomMatches" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="f1663ad3-0696-031e-3598-e65d50caa48f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2347e1a0-5ef6-4e58-8d37-df7affe4b1fc" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.StudyTest, TournamentSimulation.Test" name="RunTest_RoundRobinThenQuarterfinals_NonRandomMatches" />
+    </UnitTest>
+    <UnitTest name="GenerateSingleRoundResultTest_PartialRoundRobin" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="f3c93951-4684-4e48-19d6-dbcdca957b03">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TournamentSimulation.dll" />
+      </DeploymentItems>
+      <Execution id="431e2e77-3425-446f-befb-54362823f992" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RrTRSTest, TournamentSimulation.Test" name="GenerateSingleRoundResultTest_PartialRoundRobin" />
+    </UnitTest>
+    <UnitTest name="RunTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="fb0e9687-1457-3e79-fc31-c0f24b0951f9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="815dcd34-9d41-42e6-a283-e37faf112dd7" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.MatchTest, TournamentSimulation.Test" name="RunTest" />
+    </UnitTest>
+    <UnitTest name="GetStandardCompetitorsTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="de833cff-6770-bf57-9f5d-585c9a90a940">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9db4ec30-7364-411c-ac24-dd7051a4b577" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test" name="GetStandardCompetitorsTest" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrTS_3" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="5c0f62ee-af51-5976-0914-e501a0d1a128">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="5cea37d2-950e-424e-8cf5-bda82c23ab23" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrTS_3" />
+    </UnitTest>
+    <UnitTest name="RunTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="ca990609-ebd4-e5f6-b496-0428dfa7bdab">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="83679c6b-7013-46e4-af58-62523842f713" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.TournamentRoundTest, TournamentSimulation.Test" name="RunTest" />
+    </UnitTest>
+    <UnitTest name="RoundRobinStructureTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="8ec05c6b-a186-30d7-1cae-8de42698d45f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="238a8d6e-a1eb-4c89-90f7-687529e2583f" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="RoundRobinStructureTest" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrRrSf5KoFiPfTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="69674967-8a10-d483-8fb2-80f90ee9d31e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="31bf266c-4a7f-48ae-a578-bc31943fd09a" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrRrSf5KoFiPfTS" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrKoSfPfFiRrTS_ReferenceFormat" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="21d3f8ed-2a90-5ef3-fb6e-e92d025c233d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e364eb76-65be-4c5f-8f25-1b1be508f2a1" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrKoSfPfFiRrTS_ReferenceFormat" />
+    </UnitTest>
+    <UnitTest name="GetTournamentRoundRanksTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="1e9b582f-98e2-4180-3ec7-8bad028a020d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="8089ddf4-3397-4f58-8979-c42fdd595dd1" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.KoSfPfFiTRSTest, TournamentSimulation.Test" name="GetTournamentRoundRanksTest" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrRrSf5KoFiPfTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="1cf68b3c-38c2-0f4f-b590-cd37c97e3e98">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="16ba2a32-902a-4c22-bf61-230b88ab49f3" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.StudyTest, TournamentSimulation.Test" name="RunTest_RrRrSf5KoFiPfTS" />
+    </UnitTest>
+    <UnitTest name="TestMultiValuedLists" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="304b290b-3c44-5893-885c-3691090229fe">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="c93283c1-b473-402c-a6c5-b1fac1b0a4f6" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="TestMultiValuedLists" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrKoSfPfFiTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="2de7d6a1-30da-e7e3-3b47-9cf521866952">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="2786caf1-e1b5-4144-9313-b4a4c8a917d6" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrKoSfPfFiTS" />
+    </UnitTest>
+    <UnitTest name="RunTest_RoundRobin" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="abd30088-8758-b094-253b-469ff0f1c303">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3cb3adf7-9900-4ce6-a9ef-aa013ad1e5da" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.TournamentRoundTest, TournamentSimulation.Test" name="RunTest_RoundRobin" />
+    </UnitTest>
+    <UnitTest name="RunTest_OddCompetitors" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="9027421c-0b62-fb96-48f2-b8a36d6a994e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="176a9d91-192c-4a69-a5a0-1cbac678ee9e" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.TournamentRoundTest, TournamentSimulation.Test" name="RunTest_OddCompetitors" />
+    </UnitTest>
+    <UnitTest name="GetTournamentRoundRanksTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="64b97c17-fa28-f75f-9fd3-e1a56fded23d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="25d88657-15e9-4992-b590-920d649d90f0" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.KoSfFiTRSTest, TournamentSimulation.Test" name="GetTournamentRoundRanksTest" />
+    </UnitTest>
+    <UnitTest name="TestMatrixAddition" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="0245153c-0a6c-d362-9836-1ab19b6006d9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="573bd022-feca-42ba-af8c-51af2ab16341" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="TestMatrixAddition" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrKoSfFiTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="5e6d47c0-d6c2-0559-30f0-2562165853c0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="ed01cca4-b7a8-4d04-bd4d-d8ee7aff6a97" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrKoSfFiTS" />
+    </UnitTest>
+    <UnitTest name="GenerateSingleRoundResultTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="176ca6e1-dd96-96e4-4171-b6640c5c3960">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TournamentSimulation.dll" />
+      </DeploymentItems>
+      <Execution id="9b8dec12-6713-4026-8768-9ba40570e9dc" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RrTRSTest, TournamentSimulation.Test" name="GenerateSingleRoundResultTest" />
+    </UnitTest>
+    <UnitTest name="Test_RandomRatio" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="d8349a38-23bd-99af-c16c-c9b129d6ec58">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="773a3b42-f135-4109-b0a5-9edc6007487f" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.MatchTest, TournamentSimulation.Test" name="Test_RandomRatio" />
+    </UnitTest>
+    <UnitTest name="RemainderTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="ca95afc8-9b5e-0877-7b9f-cb2f0254602f">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="4f4dd895-4296-41ce-bb17-1b07464f9466" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="RemainderTest" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrTS_1" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="b8d4cced-6580-f879-4b1c-535841740523">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="b6708a36-5c0d-4633-b9bc-f63090a125b1" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrTS_1" />
+    </UnitTest>
+    <UnitTest name="TestObjectCreationByClassName" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="b2c0b0f9-a816-42bd-2f47-534e9fc6b6c4">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a88f304a-cd95-4328-ae19-c2dc4dca4fe4" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="TestObjectCreationByClassName" />
+    </UnitTest>
+    <UnitTest name="MeanAbsoluteDifferenceTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="4af6da61-1de1-68fd-f701-4bae44ed73d8">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="e88c38d8-31b2-47c3-a7d7-6ace67ccf93b" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.StatisticsHelperTest, TournamentSimulation.Test" name="MeanAbsoluteDifferenceTest" />
+    </UnitTest>
+    <UnitTest name="GetRandomCompetitorsTest" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="d99f92fa-60e0-5d41-0bec-ac6af37b641c">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="385fb0ae-9a96-448a-977e-361b490143cd" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.CompetitorListHelperTest, TournamentSimulation.Test" name="GetRandomCompetitorsTest" />
+    </UnitTest>
+    <UnitTest name="RunTest_KoTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="6ee4209f-ccd8-4d6a-1950-586a4f644cf0">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="7db9d572-934d-483a-81d3-9c93f2b917af" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_KoTS" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrTS_2" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="a2f84e84-92b7-1031-27c4-e7994b4ed60d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="63b5ece6-dfd9-4e17-b615-703857e3a176" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrTS_2" />
+    </UnitTest>
+    <UnitTest name="GenerateResultTest_MultipleRoundsPartialRound_2_5" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="b574413f-554d-bd34-da12-1456b60e5eca">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="1551940a-74fa-45c2-ae56-b79e472aa8e3" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RrTRSTest, TournamentSimulation.Test" name="GenerateResultTest_MultipleRoundsPartialRound_2_5" />
+    </UnitTest>
+    <UnitTest name="BreakTiesTest_NonRandomMatches" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="83288050-49cb-1322-090e-acabf400f57d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TournamentSimulation.dll" />
+      </DeploymentItems>
+      <Execution id="7326fd2b-e8d0-4006-a4de-630cf4add15f" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RrTRSTest, TournamentSimulation.Test" name="BreakTiesTest_NonRandomMatches" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrKo1aTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="ec08e93c-1940-bde3-b043-9fbea1cbaae5">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="0ea24d30-39ac-45da-ad49-000d714297d4" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrKo1aTS" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrTS_10" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="9cf8cd90-e0ad-7978-119e-1f6ca4ceb97d">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="a460dcdf-b64c-4837-a561-1a03eb9704dc" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.AllStrategyTests, TournamentSimulation.Test" name="RunTest_RrTS_10" />
+    </UnitTest>
+    <UnitTest name="BreakTiesTest_ThreeWayTie" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="364f592c-dae1-35b3-b6ee-a1f9f3f64d06">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <DeploymentItems>
+        <DeploymentItem filename="TournamentSimulation.dll" />
+      </DeploymentItems>
+      <Execution id="4b08e560-6172-4c64-a57a-63c1b7b0a63b" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.RrTRSTest, TournamentSimulation.Test" name="BreakTiesTest_ThreeWayTie" />
+    </UnitTest>
+    <UnitTest name="RunTest_Knockout" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="5eaf68f5-6191-19a5-b5c2-9ac47b5f4274">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="3218a386-b382-49ce-b80d-559566077657" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.StudyTest, TournamentSimulation.Test" name="RunTest_Knockout" />
+    </UnitTest>
+    <UnitTest name="RunTest_RrTS" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\debug\tournamentsimulation.test.dll" id="d7cb0506-2e94-0fa6-e190-f4789021bc9e">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <Execution id="9c3c66bf-a2d3-4c53-9c5c-e55ae3f38ff7" />
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.TournamentTest, TournamentSimulation.Test" name="RunTest_RrTS" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="020a724b-f5e7-78e3-1009-3af9baac1c4e" executionId="fb0671cc-3bdb-48f8-90b5-91386900506a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0245153c-0a6c-d362-9836-1ab19b6006d9" executionId="573bd022-feca-42ba-af8c-51af2ab16341" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="02f25655-6b87-834e-40d1-58dddcde206f" executionId="a7f2ec30-0f3a-4838-8204-6a6262c81d45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="04f72c19-9cad-ec02-aaff-22ac89ced51b" executionId="9ba1c47f-5b71-4c47-9cf0-8ddb3a0d56d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="176ca6e1-dd96-96e4-4171-b6640c5c3960" executionId="9b8dec12-6713-4026-8768-9ba40570e9dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1cf68b3c-38c2-0f4f-b590-cd37c97e3e98" executionId="16ba2a32-902a-4c22-bf61-230b88ab49f3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="1e9b582f-98e2-4180-3ec7-8bad028a020d" executionId="8089ddf4-3397-4f58-8979-c42fdd595dd1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21a1feb2-1cde-dd9a-6d5c-10467ef608bf" executionId="df6fc3e4-e4e4-4da7-b34a-65a4f78476b9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="21d3f8ed-2a90-5ef3-fb6e-e92d025c233d" executionId="e364eb76-65be-4c5f-8f25-1b1be508f2a1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2de7d6a1-30da-e7e3-3b47-9cf521866952" executionId="2786caf1-e1b5-4144-9313-b4a4c8a917d6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="304b290b-3c44-5893-885c-3691090229fe" executionId="c93283c1-b473-402c-a6c5-b1fac1b0a4f6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="3199b915-760c-c36d-33e7-2b19ef399891" executionId="6b1d123d-0e4f-466d-8966-08e49d620f7b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="31aa54ec-53a2-75ac-ec9d-f08fcdee817f" executionId="6ce1e5d1-54fd-4035-adad-2b4f87192b92" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="364f592c-dae1-35b3-b6ee-a1f9f3f64d06" executionId="4b08e560-6172-4c64-a57a-63c1b7b0a63b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4af6da61-1de1-68fd-f701-4bae44ed73d8" executionId="e88c38d8-31b2-47c3-a7d7-6ace67ccf93b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5c0f62ee-af51-5976-0914-e501a0d1a128" executionId="5cea37d2-950e-424e-8cf5-bda82c23ab23" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5e6d47c0-d6c2-0559-30f0-2562165853c0" executionId="ed01cca4-b7a8-4d04-bd4d-d8ee7aff6a97" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5eaf68f5-6191-19a5-b5c2-9ac47b5f4274" executionId="3218a386-b382-49ce-b80d-559566077657" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6277c25a-b013-ce8e-722d-151c4acbbd54" executionId="649e9ec9-33c5-4035-a922-eeed8ffa8e61" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="630243ab-fb7e-2ebb-50f3-fa540975ee87" executionId="11ba3fe4-16d8-41af-89a1-6120b8ea8df3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6427cbf4-7792-6b4f-f099-3ec4de7ab419" executionId="c1b32a88-d8f0-4366-b657-79c486ab1099" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="64b97c17-fa28-f75f-9fd3-e1a56fded23d" executionId="25d88657-15e9-4992-b590-920d649d90f0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="69674967-8a10-d483-8fb2-80f90ee9d31e" executionId="31bf266c-4a7f-48ae-a578-bc31943fd09a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="6ee4209f-ccd8-4d6a-1950-586a4f644cf0" executionId="7db9d572-934d-483a-81d3-9c93f2b917af" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="72fed2d4-9aab-081b-0f6c-89d8e14a9acb" executionId="d7c450d2-f670-4539-b277-3f539bf2a597" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7a0e8ef5-8b60-dd26-f0db-cb7b4cf40406" executionId="f0eb6d03-00bb-4023-81ec-620e1003df17" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e652a61-bcc9-d623-85be-6494caab3f0d" executionId="a4898c68-629e-4532-b174-f6ad7fd0e1fe" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83288050-49cb-1322-090e-acabf400f57d" executionId="7326fd2b-e8d0-4006-a4de-630cf4add15f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8ec05c6b-a186-30d7-1cae-8de42698d45f" executionId="238a8d6e-a1eb-4c89-90f7-687529e2583f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9027421c-0b62-fb96-48f2-b8a36d6a994e" executionId="176a9d91-192c-4a69-a5a0-1cbac678ee9e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="94a96c4a-f931-ee80-2f08-5ba18992177a" executionId="6f8681a7-ae1e-4b6c-a139-5919d76532e0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9cf8cd90-e0ad-7978-119e-1f6ca4ceb97d" executionId="a460dcdf-b64c-4837-a561-1a03eb9704dc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9d577338-1b47-1af0-ef57-e42108ba755d" executionId="ebeaa951-dc16-4a1e-8a2e-2f774825783c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="a2f84e84-92b7-1031-27c4-e7994b4ed60d" executionId="63b5ece6-dfd9-4e17-b615-703857e3a176" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="abd30088-8758-b094-253b-469ff0f1c303" executionId="3cb3adf7-9900-4ce6-a9ef-aa013ad1e5da" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b2c0b0f9-a816-42bd-2f47-534e9fc6b6c4" executionId="a88f304a-cd95-4328-ae19-c2dc4dca4fe4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b43cc4dc-fe5a-8cc4-38c1-27b794b8fdc7" executionId="b5fb325b-fab2-41e3-9226-162dfa9bef2d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b547ce59-3b72-8a12-72bc-00abb5e18c1a" executionId="7392e89d-6afe-475f-a6e2-d65668a06a9a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b574413f-554d-bd34-da12-1456b60e5eca" executionId="1551940a-74fa-45c2-ae56-b79e472aa8e3" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b8d4cced-6580-f879-4b1c-535841740523" executionId="b6708a36-5c0d-4633-b9bc-f63090a125b1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca95afc8-9b5e-0877-7b9f-cb2f0254602f" executionId="4f4dd895-4296-41ce-bb17-1b07464f9466" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ca990609-ebd4-e5f6-b496-0428dfa7bdab" executionId="83679c6b-7013-46e4-af58-62523842f713" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d7cb0506-2e94-0fa6-e190-f4789021bc9e" executionId="9c3c66bf-a2d3-4c53-9c5c-e55ae3f38ff7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d8349a38-23bd-99af-c16c-c9b129d6ec58" executionId="773a3b42-f135-4109-b0a5-9edc6007487f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="d99f92fa-60e0-5d41-0bec-ac6af37b641c" executionId="385fb0ae-9a96-448a-977e-361b490143cd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de235143-01df-111f-553f-fff134c78391" executionId="5fb5cc11-cd92-470c-b16d-f5c00b9809e7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="de833cff-6770-bf57-9f5d-585c9a90a940" executionId="9db4ec30-7364-411c-ac24-dd7051a4b577" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ec08e93c-1940-bde3-b043-9fbea1cbaae5" executionId="0ea24d30-39ac-45da-ad49-000d714297d4" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efc89dee-9410-1b04-2883-e3226a9044ed" executionId="9ec18ee2-978b-4f2d-9594-3d658d4bfc7f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1663ad3-0696-031e-3598-e65d50caa48f" executionId="2347e1a0-5ef6-4e58-8d37-df7affe4b1fc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f1748cb5-cb19-d6ee-e51f-f78e555ad3e6" executionId="840f28da-51ef-4eba-98b3-9d5aed7da370" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3303c3f-348f-94ea-c6b8-5b8bfd84c569" executionId="d09355b2-6730-4833-a33c-71e6aafce53c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f3c93951-4684-4e48-19d6-dbcdca957b03" executionId="431e2e77-3425-446f-befb-54362823f992" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f6ed9d7e-4779-9fe2-3b8e-3ec4774e0ac1" executionId="04733fdf-5891-4bab-b7df-366ffc56008e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fb0e9687-1457-3e79-fc31-c0f24b0951f9" executionId="815dcd34-9d41-42e6-a283-e37faf112dd7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="fb0671cc-3bdb-48f8-90b5-91386900506a" testId="020a724b-f5e7-78e3-1009-3af9baac1c4e" testName="CollectionTest" computerName="LT0085" duration="00:00:00.0475791" startTime="2010-11-08T06:53:42.8915190-06:00" endTime="2010-11-08T06:53:43.5065542-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="573bd022-feca-42ba-af8c-51af2ab16341" testId="0245153c-0a6c-d362-9836-1ab19b6006d9" testName="TestMatrixAddition" computerName="LT0085" duration="00:00:00.3113340" startTime="2010-11-08T06:53:43.5105544-06:00" endTime="2010-11-08T06:53:43.8315728-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>[[20,0]
+ [10,10]]
+[[0,0,0]
+ [0,0,0]
+ [0,0,0]]
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a7f2ec30-0f3a-4838-8204-6a6262c81d45" testId="02f25655-6b87-834e-40d1-58dddcde206f" testName="GetEvenlySpacedCompetitorsTest" computerName="LT0085" duration="00:00:00.0018353" startTime="2010-11-08T06:53:43.8365731-06:00" endTime="2010-11-08T06:53:43.8895761-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9ba1c47f-5b71-4c47-9cf0-8ddb3a0d56d6" testId="04f72c19-9cad-ec02-aaff-22ac89ced51b" testName="RunTest_KoTS_BadSeeding" computerName="LT0085" duration="00:00:00.5428964" startTime="2010-11-08T06:53:43.8915762-06:00" endTime="2010-11-08T06:53:44.4366074-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: Ko
+	1) knockout semifinal first to 2, final knockout first to 2, keep all remaining ties
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9b8dec12-6713-4026-8768-9ba40570e9dc" testId="176ca6e1-dd96-96e4-4171-b6640c5c3960" testName="GenerateSingleRoundResultTest" computerName="LT0085" duration="00:00:00.0162381" startTime="2010-11-08T06:53:44.4386075-06:00" endTime="2010-11-08T06:53:44.4576086-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="16ba2a32-902a-4c22-bf61-230b88ab49f3" testId="1cf68b3c-38c2-0f4f-b590-cd37c97e3e98" testName="RunTest_RrRrSf5KoFiPfTS" computerName="LT0085" duration="00:00:00.0635374" startTime="2010-11-08T06:53:44.4596087-06:00" endTime="2010-11-08T06:53:44.5256125-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Study Parameters:
+Tournament Strategy: TournamentSimulation.TournamentStrategies.RrRrSf5KoFiPfTS
+Match Strategy: TournamentSimulation.MatchStrategies.NonRandomMS
+Number of Tournament Iterations: 10
+
+
+Tournament Strategy: RrRrSf5KoFiPf
+	1) round robin (1); 2) seed 1-4 into RRA (1) and 5-8 into RRB (1); 3) RRA 1, 2 go to finals, RRA 3, RRB 1 go to petit finals, all others to a consolation RR; 4) finals first to 2, petit finals first to 2, consolation round robin (1)
+Match Strategy: NonRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8089ddf4-3397-4f58-8979-c42fdd595dd1" testId="1e9b582f-98e2-4180-3ec7-8bad028a020d" testName="GetTournamentRoundRanksTest" computerName="LT0085" duration="00:00:00.0077084" startTime="2010-11-08T06:53:44.5276126-06:00" endTime="2010-11-08T06:53:44.5366131-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="df6fc3e4-e4e4-4da7-b34a-65a4f78476b9" testId="21a1feb2-1cde-dd9a-6d5c-10467ef608bf" testName="BreakTiesTest" computerName="LT0085" duration="00:00:00.0222450" startTime="2010-11-08T06:53:44.5386132-06:00" endTime="2010-11-08T06:53:44.5626146-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e364eb76-65be-4c5f-8f25-1b1be508f2a1" testId="21d3f8ed-2a90-5ef3-fb6e-e92d025c233d" testName="RunTest_RrKoSfPfFiRrTS_ReferenceFormat" computerName="LT0085" duration="00:00:00.0097662" startTime="2010-11-08T06:53:44.5636147-06:00" endTime="2010-11-08T06:53:44.5756153-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: RrKoSfPfFiRr
+	1) round robin (2) to seed knockout, 2) semifinals first to 2, 3) petit finals first to 2, finals knockout first to 2 for top four, 4) round robin (2) consolation for remainder
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2786caf1-e1b5-4144-9313-b4a4c8a917d6" testId="2de7d6a1-30da-e7e3-3b47-9cf521866952" testName="RunTest_RrKoSfPfFiTS" computerName="LT0085" duration="00:00:00.0070929" startTime="2010-11-08T06:53:44.5776155-06:00" endTime="2010-11-08T06:53:44.5866160-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: RrKoSfPfFi
+	1) round robin (2), 2) semifinal first to 2; 3) final first to 2, petit final first to 2, lower than 5th keeps their tie at 5th
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c93283c1-b473-402c-a6c5-b1fac1b0a4f6" testId="304b290b-3c44-5893-885c-3691090229fe" testName="TestMultiValuedLists" computerName="LT0085" duration="00:00:00.0003302" startTime="2010-11-08T06:53:44.5886161-06:00" endTime="2010-11-08T06:53:44.5906162-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6b1d123d-0e4f-466d-8966-08e49d620f7b" testId="3199b915-760c-c36d-33e7-2b19ef399891" testName="RunTest_Rating" computerName="LT0085" duration="00:00:00.0015804" startTime="2010-11-08T06:53:44.5926163-06:00" endTime="2010-11-08T06:53:44.5966165-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6ce1e5d1-54fd-4035-adad-2b4f87192b92" testId="31aa54ec-53a2-75ac-ec9d-f08fcdee817f" testName="RunTest_RrKo1TS" computerName="LT0085" duration="00:00:00.0081374" startTime="2010-11-08T06:53:44.5986167-06:00" endTime="2010-11-08T06:53:44.6086172-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: RrKo1
+	1) round robin (2); 2) flip competitors and have a single knockout round first to 2, break ties by round robin rank
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4b08e560-6172-4c64-a57a-63c1b7b0a63b" testId="364f592c-dae1-35b3-b6ee-a1f9f3f64d06" testName="BreakTiesTest_ThreeWayTie" computerName="LT0085" duration="00:00:00.0056570" startTime="2010-11-08T06:53:44.6106173-06:00" endTime="2010-11-08T06:53:44.6176177-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e88c38d8-31b2-47c3-a7d7-6ace67ccf93b" testId="4af6da61-1de1-68fd-f701-4bae44ed73d8" testName="MeanAbsoluteDifferenceTest" computerName="LT0085" duration="00:00:00.0020937" startTime="2010-11-08T06:53:44.6196179-06:00" endTime="2010-11-08T06:53:44.6236181-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5cea37d2-950e-424e-8cf5-bda82c23ab23" testId="5c0f62ee-af51-5976-0914-e501a0d1a128" testName="RunTest_RrTS_3" computerName="LT0085" duration="00:00:00.0033439" startTime="2010-11-08T06:53:44.6256182-06:00" endTime="2010-11-08T06:53:44.6306185-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: Rr
+	1) round robin (3) first to 1
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ed01cca4-b7a8-4d04-bd4d-d8ee7aff6a97" testId="5e6d47c0-d6c2-0559-30f0-2562165853c0" testName="RunTest_RrKoSfFiTS" computerName="LT0085" duration="00:00:00.0096246" startTime="2010-11-08T06:53:44.6326186-06:00" endTime="2010-11-08T06:53:44.6446193-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: RrKoSfFi
+	1) round robin (2), 2)semifinal first to 2, final knockout first to 2, break remaining ties by round robin results
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3218a386-b382-49ce-b80d-559566077657" testId="5eaf68f5-6191-19a5-b5c2-9ac47b5f4274" testName="RunTest_Knockout" computerName="LT0085" duration="00:00:00.0087709" startTime="2010-11-08T06:53:44.6466194-06:00" endTime="2010-11-08T06:53:44.6576200-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="649e9ec9-33c5-4035-a922-eeed8ffa8e61" testId="6277c25a-b013-ce8e-722d-151c4acbbd54" testName="RunTest_SimpleRandomMatchStrategy" computerName="LT0085" duration="00:00:00.0007664" startTime="2010-11-08T06:53:44.6616203-06:00" endTime="2010-11-08T06:53:44.6646204-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="11ba3fe4-16d8-41af-89a1-6120b8ea8df3" testId="630243ab-fb7e-2ebb-50f3-fa540975ee87" testName="RoundRobinStructureTest_OddCompetitors" computerName="LT0085" duration="00:00:00.0051241" startTime="2010-11-08T06:53:44.6666205-06:00" endTime="2010-11-08T06:53:44.6736210-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>ABCDEFG
+B vs. G, C vs. F, D vs. E, 
+BCDEFGA
+C vs. A, D vs. G, E vs. F, 
+CDEFGAB
+D vs. B, E vs. A, F vs. G, 
+DEFGABC
+E vs. C, F vs. B, G vs. A, 
+EFGABCD
+F vs. D, G vs. C, A vs. B, 
+FGABCDE
+G vs. E, A vs. D, B vs. C, 
+GABCDEF
+A vs. F, B vs. E, C vs. D, 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="c1b32a88-d8f0-4366-b657-79c486ab1099" testId="6427cbf4-7792-6b4f-f099-3ec4de7ab419" testName="GenerateResultTest" computerName="LT0085" duration="00:00:00.0003896" startTime="2010-11-08T06:53:44.6756211-06:00" endTime="2010-11-08T06:53:44.6776212-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="25d88657-15e9-4992-b590-920d649d90f0" testId="64b97c17-fa28-f75f-9fd3-e1a56fded23d" testName="GetTournamentRoundRanksTest" computerName="LT0085" duration="00:00:00.0021997" startTime="2010-11-08T06:53:44.6796213-06:00" endTime="2010-11-08T06:53:44.6846216-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="31bf266c-4a7f-48ae-a578-bc31943fd09a" testId="69674967-8a10-d483-8fb2-80f90ee9d31e" testName="RunTest_RrRrSf5KoFiPfTS" computerName="LT0085" duration="00:00:00.0135994" startTime="2010-11-08T06:53:44.6866217-06:00" endTime="2010-11-08T06:53:44.7026226-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: RrRrSf5KoFiPf
+	1) round robin (2); 2) seed 1-4 into RRA (1) and 5-8 into RRB (1); 3) RRA 1, 2 go to finals, RRA 3, RRB 1 go to petit finals, all others to a consolation RR; 4) finals first to 2, petit finals first to 2, consolation round robin (1)
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7db9d572-934d-483a-81d3-9c93f2b917af" testId="6ee4209f-ccd8-4d6a-1950-586a4f644cf0" testName="RunTest_KoTS" computerName="LT0085" duration="00:00:00.0016326" startTime="2010-11-08T06:53:44.7046227-06:00" endTime="2010-11-08T06:53:44.7096230-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: Ko
+	1) knockout semifinal first to 2, final knockout first to 2, keep all remaining ties
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d7c450d2-f670-4539-b277-3f539bf2a597" testId="72fed2d4-9aab-081b-0f6c-89d8e14a9acb" testName="RunTest_KoTS" computerName="LT0085" duration="00:00:00.0009414" startTime="2010-11-08T06:53:44.7116231-06:00" endTime="2010-11-08T06:53:44.7156234-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="f0eb6d03-00bb-4023-81ec-620e1003df17" testId="7a0e8ef5-8b60-dd26-f0db-cb7b4cf40406" testName="GenerateResultTest_MultipleRoundsPartialRoundNonRandomMatches" computerName="LT0085" duration="00:00:00.0023939" startTime="2010-11-08T06:53:44.7176235-06:00" endTime="2010-11-08T06:53:44.7226238-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a4898c68-629e-4532-b174-f6ad7fd0e1fe" testId="7e652a61-bcc9-d623-85be-6494caab3f0d" testName="GenerateResultTest_MultipleRoundsNonRandomMatches" computerName="LT0085" duration="00:00:00.0008819" startTime="2010-11-08T06:53:44.7236238-06:00" endTime="2010-11-08T06:53:44.7286241-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7326fd2b-e8d0-4006-a4de-630cf4add15f" testId="83288050-49cb-1322-090e-acabf400f57d" testName="BreakTiesTest_NonRandomMatches" computerName="LT0085" duration="00:00:00.0149818" startTime="2010-11-08T06:53:44.7306242-06:00" endTime="2010-11-08T06:53:44.7486252-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="238a8d6e-a1eb-4c89-90f7-687529e2583f" testId="8ec05c6b-a186-30d7-1cae-8de42698d45f" testName="RoundRobinStructureTest" computerName="LT0085" duration="00:00:00.0027754" startTime="2010-11-08T06:53:44.7516254-06:00" endTime="2010-11-08T06:53:44.7566257-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>ABCDEFGH
+A vs. H, B vs. G, C vs. F, D vs. E, 
+BCDEFGAH
+B vs. H, C vs. A, D vs. G, E vs. F, 
+CDEFGABH
+C vs. H, D vs. B, E vs. A, F vs. G, 
+DEFGABCH
+D vs. H, E vs. C, F vs. B, G vs. A, 
+EFGABCDH
+E vs. H, F vs. D, G vs. C, A vs. B, 
+FGABCDEH
+F vs. H, G vs. E, A vs. D, B vs. C, 
+GABCDEFH
+G vs. H, A vs. F, B vs. E, C vs. D, 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="176a9d91-192c-4a69-a5a0-1cbac678ee9e" testId="9027421c-0b62-fb96-48f2-b8a36d6a994e" testName="RunTest_OddCompetitors" computerName="LT0085" duration="00:00:00.0239794" startTime="2010-11-08T06:53:44.7566257-06:00" endTime="2010-11-08T06:53:44.7836272-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="6f8681a7-ae1e-4b6c-a139-5919d76532e0" testId="94a96c4a-f931-ee80-2f08-5ba18992177a" testName="RunTest_RrTS_2_5" computerName="LT0085" duration="00:00:00.0020795" startTime="2010-11-08T06:53:44.7856274-06:00" endTime="2010-11-08T06:53:44.7896276-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: Rr
+	1) round robin (2.5) first to 1
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a460dcdf-b64c-4837-a561-1a03eb9704dc" testId="9cf8cd90-e0ad-7978-119e-1f6ca4ceb97d" testName="RunTest_RrTS_10" computerName="LT0085" duration="00:00:00.0033529" startTime="2010-11-08T06:53:44.7916277-06:00" endTime="2010-11-08T06:53:44.7966280-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: Rr
+	1) round robin (10) first to 1
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="ebeaa951-dc16-4a1e-8a2e-2f774825783c" testId="9d577338-1b47-1af0-ef57-e42108ba755d" testName="GenerateResultTest" computerName="LT0085" duration="00:00:00.0057152" startTime="2010-11-08T06:53:44.7986281-06:00" endTime="2010-11-08T06:53:44.8066286-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>F, B, D, H, C, E, G, A, 
+E, H, D, C, B, A, F, G, 
+F, E, D, B, H, C, G, A, 
+E, G, A, B, F, C, D, H, 
+D, A, C, F, G, E, B, H, 
+C, F, D, A, G, E, B, H, 
+F, D, B, G, A, C, E, H, 
+B, H, G, D, E, A, F, C, 
+C, A, E, H, B, D, G, F, 
+H, F, D, B, A, E, G, C, 
+H, C, G, D, E, F, A, B, 
+A, F, H, B, G, C, E, D, 
+C, E, A, G, F, H, D, B, 
+G, D, F, E, H, B, C, A, 
+A, C, D, G, H, F, E, B, 
+B, F, E, A, C, H, G, D, 
+F, H, E, A, C, B, G, D, 
+F, D, B, C, A, G, E, H, 
+F, B, A, C, H, G, D, E, 
+D, E, A, B, C, G, F, H, 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="63b5ece6-dfd9-4e17-b615-703857e3a176" testId="a2f84e84-92b7-1031-27c4-e7994b4ed60d" testName="RunTest_RrTS_2" computerName="LT0085" duration="00:00:00.0019033" startTime="2010-11-08T06:53:44.8086287-06:00" endTime="2010-11-08T06:53:44.8136290-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: Rr
+	1) round robin (2) first to 1
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="3cb3adf7-9900-4ce6-a9ef-aa013ad1e5da" testId="abd30088-8758-b094-253b-469ff0f1c303" testName="RunTest_RoundRobin" computerName="LT0085" duration="00:00:00.0013798" startTime="2010-11-08T06:53:44.8146290-06:00" endTime="2010-11-08T06:53:44.8186292-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Match 5956: Winner B, Loser G
+Match 5957: Winner C, Loser F
+Match 5958: Winner D, Loser E
+Match 5959: Winner A, Loser C
+Match 5960: Winner D, Loser G
+Match 5961: Winner E, Loser F
+Match 5962: Winner B, Loser D
+Match 5963: Winner A, Loser E
+Match 5964: Winner F, Loser G
+Match 5965: Winner C, Loser E
+Match 5966: Winner B, Loser F
+Match 5967: Winner A, Loser G
+Match 5968: Winner D, Loser F
+Match 5969: Winner C, Loser G
+Match 5970: Winner A, Loser B
+Match 5971: Winner E, Loser G
+Match 5972: Winner A, Loser D
+Match 5973: Winner B, Loser C
+Match 5974: Winner A, Loser F
+Match 5975: Winner B, Loser E
+Match 5976: Winner C, Loser D
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a88f304a-cd95-4328-ae19-c2dc4dca4fe4" testId="b2c0b0f9-a816-42bd-2f47-534e9fc6b6c4" testName="TestObjectCreationByClassName" computerName="LT0085" duration="00:00:00.0007994" startTime="2010-11-08T06:53:44.8196293-06:00" endTime="2010-11-08T06:53:44.8226295-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b5fb325b-fab2-41e3-9226-162dfa9bef2d" testId="b43cc4dc-fe5a-8cc4-38c1-27b794b8fdc7" testName="RoundRobinStructureTest_ManyCompetitors" computerName="LT0085" duration="00:00:00.0202060" startTime="2010-11-08T06:53:44.8236295-06:00" endTime="2010-11-08T06:53:44.8466308-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>ABCDEFGHIJKLMNOPQRSTUVWXY
+B vs. Y, C vs. X, D vs. W, E vs. V, F vs. U, G vs. T, H vs. S, I vs. R, J vs. Q, K vs. P, L vs. O, M vs. N, 
+BCDEFGHIJKLMNOPQRSTUVWXYA
+C vs. A, D vs. Y, E vs. X, F vs. W, G vs. V, H vs. U, I vs. T, J vs. S, K vs. R, L vs. Q, M vs. P, N vs. O, 
+CDEFGHIJKLMNOPQRSTUVWXYAB
+D vs. B, E vs. A, F vs. Y, G vs. X, H vs. W, I vs. V, J vs. U, K vs. T, L vs. S, M vs. R, N vs. Q, O vs. P, 
+DEFGHIJKLMNOPQRSTUVWXYABC
+E vs. C, F vs. B, G vs. A, H vs. Y, I vs. X, J vs. W, K vs. V, L vs. U, M vs. T, N vs. S, O vs. R, P vs. Q, 
+EFGHIJKLMNOPQRSTUVWXYABCD
+F vs. D, G vs. C, H vs. B, I vs. A, J vs. Y, K vs. X, L vs. W, M vs. V, N vs. U, O vs. T, P vs. S, Q vs. R, 
+FGHIJKLMNOPQRSTUVWXYABCDE
+G vs. E, H vs. D, I vs. C, J vs. B, K vs. A, L vs. Y, M vs. X, N vs. W, O vs. V, P vs. U, Q vs. T, R vs. S, 
+GHIJKLMNOPQRSTUVWXYABCDEF
+H vs. F, I vs. E, J vs. D, K vs. C, L vs. B, M vs. A, N vs. Y, O vs. X, P vs. W, Q vs. V, R vs. U, S vs. T, 
+HIJKLMNOPQRSTUVWXYABCDEFG
+I vs. G, J vs. F, K vs. E, L vs. D, M vs. C, N vs. B, O vs. A, P vs. Y, Q vs. X, R vs. W, S vs. V, T vs. U, 
+IJKLMNOPQRSTUVWXYABCDEFGH
+J vs. H, K vs. G, L vs. F, M vs. E, N vs. D, O vs. C, P vs. B, Q vs. A, R vs. Y, S vs. X, T vs. W, U vs. V, 
+JKLMNOPQRSTUVWXYABCDEFGHI
+K vs. I, L vs. H, M vs. G, N vs. F, O vs. E, P vs. D, Q vs. C, R vs. B, S vs. A, T vs. Y, U vs. X, V vs. W, 
+KLMNOPQRSTUVWXYABCDEFGHIJ
+L vs. J, M vs. I, N vs. H, O vs. G, P vs. F, Q vs. E, R vs. D, S vs. C, T vs. B, U vs. A, V vs. Y, W vs. X, 
+LMNOPQRSTUVWXYABCDEFGHIJK
+M vs. K, N vs. J, O vs. I, P vs. H, Q vs. G, R vs. F, S vs. E, T vs. D, U vs. C, V vs. B, W vs. A, X vs. Y, 
+MNOPQRSTUVWXYABCDEFGHIJKL
+N vs. L, O vs. K, P vs. J, Q vs. I, R vs. H, S vs. G, T vs. F, U vs. E, V vs. D, W vs. C, X vs. B, Y vs. A, 
+NOPQRSTUVWXYABCDEFGHIJKLM
+O vs. M, P vs. L, Q vs. K, R vs. J, S vs. I, T vs. H, U vs. G, V vs. F, W vs. E, X vs. D, Y vs. C, A vs. B, 
+OPQRSTUVWXYABCDEFGHIJKLMN
+P vs. N, Q vs. M, R vs. L, S vs. K, T vs. J, U vs. I, V vs. H, W vs. G, X vs. F, Y vs. E, A vs. D, B vs. C, 
+PQRSTUVWXYABCDEFGHIJKLMNO
+Q vs. O, R vs. N, S vs. M, T vs. L, U vs. K, V vs. J, W vs. I, X vs. H, Y vs. G, A vs. F, B vs. E, C vs. D, 
+QRSTUVWXYABCDEFGHIJKLMNOP
+R vs. P, S vs. O, T vs. N, U vs. M, V vs. L, W vs. K, X vs. J, Y vs. I, A vs. H, B vs. G, C vs. F, D vs. E, 
+RSTUVWXYABCDEFGHIJKLMNOPQ
+S vs. Q, T vs. P, U vs. O, V vs. N, W vs. M, X vs. L, Y vs. K, A vs. J, B vs. I, C vs. H, D vs. G, E vs. F, 
+STUVWXYABCDEFGHIJKLMNOPQR
+T vs. R, U vs. Q, V vs. P, W vs. O, X vs. N, Y vs. M, A vs. L, B vs. K, C vs. J, D vs. I, E vs. H, F vs. G, 
+TUVWXYABCDEFGHIJKLMNOPQRS
+U vs. S, V vs. R, W vs. Q, X vs. P, Y vs. O, A vs. N, B vs. M, C vs. L, D vs. K, E vs. J, F vs. I, G vs. H, 
+UVWXYABCDEFGHIJKLMNOPQRST
+V vs. T, W vs. S, X vs. R, Y vs. Q, A vs. P, B vs. O, C vs. N, D vs. M, E vs. L, F vs. K, G vs. J, H vs. I, 
+VWXYABCDEFGHIJKLMNOPQRSTU
+W vs. U, X vs. T, Y vs. S, A vs. R, B vs. Q, C vs. P, D vs. O, E vs. N, F vs. M, G vs. L, H vs. K, I vs. J, 
+WXYABCDEFGHIJKLMNOPQRSTUV
+X vs. V, Y vs. U, A vs. T, B vs. S, C vs. R, D vs. Q, E vs. P, F vs. O, G vs. N, H vs. M, I vs. L, J vs. K, 
+XYABCDEFGHIJKLMNOPQRSTUVW
+Y vs. W, A vs. V, B vs. U, C vs. T, D vs. S, E vs. R, F vs. Q, G vs. P, H vs. O, I vs. N, J vs. M, K vs. L, 
+YABCDEFGHIJKLMNOPQRSTUVWX
+A vs. X, B vs. W, C vs. V, D vs. U, E vs. T, F vs. S, G vs. R, H vs. Q, I vs. P, J vs. O, K vs. N, L vs. M, 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="7392e89d-6afe-475f-a6e2-d65668a06a9a" testId="b547ce59-3b72-8a12-72bc-00abb5e18c1a" testName="GetTournamentRoundRanksTest" computerName="LT0085" duration="00:00:00.0074470" startTime="2010-11-08T06:53:44.8486310-06:00" endTime="2010-11-08T06:53:44.8576315-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="1551940a-74fa-45c2-ae56-b79e472aa8e3" testId="b574413f-554d-bd34-da12-1456b60e5eca" testName="GenerateResultTest_MultipleRoundsPartialRound_2_5" computerName="LT0085" duration="00:00:00.0006843" startTime="2010-11-08T06:53:44.8596316-06:00" endTime="2010-11-08T06:53:44.8626318-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b6708a36-5c0d-4633-b9bc-f63090a125b1" testId="b8d4cced-6580-f879-4b1c-535841740523" testName="RunTest_RrTS_1" computerName="LT0085" duration="00:00:00.0041553" startTime="2010-11-08T06:53:44.8636318-06:00" endTime="2010-11-08T06:53:44.8706322-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: Rr
+	1) round robin (1) first to 1
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f4dd895-4296-41ce-bb17-1b07464f9466" testId="ca95afc8-9b5e-0877-7b9f-cb2f0254602f" testName="RemainderTest" computerName="LT0085" duration="00:00:00.0002442" startTime="2010-11-08T06:53:44.8746324-06:00" endTime="2010-11-08T06:53:44.8766326-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="83679c6b-7013-46e4-af58-62523842f713" testId="ca990609-ebd4-e5f6-b496-0428dfa7bdab" testName="RunTest" computerName="LT0085" duration="00:00:00.0018700" startTime="2010-11-08T06:53:44.8786327-06:00" endTime="2010-11-08T06:53:44.8816328-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Match 6297: Winner A, Loser D
+Match 6298: Winner B, Loser C
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9c3c66bf-a2d3-4c53-9c5c-e55ae3f38ff7" testId="d7cb0506-2e94-0fa6-e190-f4789021bc9e" testName="RunTest_RrTS" computerName="LT0085" duration="00:00:00.0006360" startTime="2010-11-08T06:53:44.8836330-06:00" endTime="2010-11-08T06:53:44.8866331-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="773a3b42-f135-4109-b0a5-9edc6007487f" testId="d8349a38-23bd-99af-c16c-c9b129d6ec58" testName="Test_RandomRatio" computerName="LT0085" duration="00:00:00.0034311" startTime="2010-11-08T06:53:44.8886332-06:00" endTime="2010-11-08T06:53:44.8936335-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>54, 66, 66, 68, 67, 60, 60, 55, 63, 60, 58, 52, 62, 63, 59, 60, 65, 67, 56, 67, 56, 57, 62, 56, 57, 61, 64, 54, 64, 66, 47, 57, 60, 60, 60, 61, 58, 66, 59, 60, 63, 62, 66, 64, 61, 58, 62, 51, 66, 61, 60, 65, 52, 56, 61, 58, 57, 63, 66, 61, 65, 54, 56, 58, 56, 53, 61, 62, 58, 57, 51, 59, 63, 61, 65, 63, 61, 59, 59, 56, 65, 57, 67, 50, 62, 57, 65, 55, 58, 65, 56, 60, 58, 62, 58, 62, 52, 60, 65, 53, </DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="385fb0ae-9a96-448a-977e-361b490143cd" testId="d99f92fa-60e0-5d41-0bec-ac6af37b641c" testName="GetRandomCompetitorsTest" computerName="LT0085" duration="00:00:00.0070031" startTime="2010-11-08T06:53:44.8956336-06:00" endTime="2010-11-08T06:53:44.9056342-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Competitor A: Rating 100
+Competitor B: Rating 98
+Competitor C: Rating 85
+Competitor D: Rating 66
+Competitor E: Rating 59
+Competitor F: Rating 25
+Competitor G: Rating 23
+Competitor H: Rating 11
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="5fb5cc11-cd92-470c-b16d-f5c00b9809e7" testId="de235143-01df-111f-553f-fff134c78391" testName="RunTest" computerName="LT0085" duration="00:00:00.0003990" startTime="2010-11-08T06:53:44.9076343-06:00" endTime="2010-11-08T06:53:44.9106345-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9db4ec30-7364-411c-ac24-dd7051a4b577" testId="de833cff-6770-bf57-9f5d-585c9a90a940" testName="GetStandardCompetitorsTest" computerName="LT0085" duration="00:00:00.0034945" startTime="2010-11-08T06:53:44.9106345-06:00" endTime="2010-11-08T06:53:44.9176349-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Competitor A: Rating 80
+Competitor B: Rating 70
+Competitor C: Rating 60
+Competitor D: Rating 50
+Competitor E: Rating 40
+Competitor F: Rating 30
+Competitor G: Rating 20
+Competitor H: Rating 10
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="0ea24d30-39ac-45da-ad49-000d714297d4" testId="ec08e93c-1940-bde3-b043-9fbea1cbaae5" testName="RunTest_RrKo1aTS" computerName="LT0085" duration="00:00:00.0076934" startTime="2010-11-08T06:53:44.9196350-06:00" endTime="2010-11-08T06:53:44.9296356-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: RrKo1a
+	1) round robin (2); 2) pair nearby competitors and have a single knockout match first to 2 between each pair
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9ec18ee2-978b-4f2d-9594-3d658d4bfc7f" testId="efc89dee-9410-1b04-2883-e3226a9044ed" testName="TestRandomIntegers" computerName="LT0085" duration="00:00:00.0027870" startTime="2010-11-08T06:53:44.9316357-06:00" endTime="2010-11-08T06:53:44.9366360-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+5, 4, 3, 1, 2, 6, 7, 0, 
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2347e1a0-5ef6-4e58-8d37-df7affe4b1fc" testId="f1663ad3-0696-031e-3598-e65d50caa48f" testName="RunTest_RoundRobinThenQuarterfinals_NonRandomMatches" computerName="LT0085" duration="00:00:00.0090707" startTime="2010-11-08T06:53:44.9366360-06:00" endTime="2010-11-08T06:53:44.9476366-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Study Parameters:
+Tournament Strategy: TournamentSimulation.TournamentStrategies.RrKoSfFiTS
+Match Strategy: TournamentSimulation.MatchStrategies.NonRandomMS
+Number of Tournament Iterations: 10
+
+
+Tournament Strategy: RrKoSfFi
+	1) round robin (2), 2)semifinal first to 2, final knockout first to 2, break remaining ties by round robin results
+Match Strategy: NonRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="840f28da-51ef-4eba-98b3-9d5aed7da370" testId="f1748cb5-cb19-d6ee-e51f-f78e555ad3e6" testName="GetCompetitorRanksTest" computerName="LT0085" duration="00:00:00.0014910" startTime="2010-11-08T06:53:44.9506368-06:00" endTime="2010-11-08T06:53:44.9546370-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d09355b2-6730-4833-a33c-71e6aafce53c" testId="f3303c3f-348f-94ea-c6b8-5b8bfd84c569" testName="RunTest_RrKoSf5PfFiTS" computerName="LT0085" duration="00:00:00.0040937" startTime="2010-11-08T06:53:44.9566371-06:00" endTime="2010-11-08T06:53:44.9626375-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: RrKoSf5PfFi
+	1) round robin (2); 2) 1st place gets a bye to the finals; 3) semifinals first to 2 2nd &amp; 3rd compete for 2nd spot in finals and 1st spot in petit finals, 4th &amp; 5th compete for 2nd spot in petit finals; 4) finals first to 2, petit finals first to 2
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="431e2e77-3425-446f-befb-54362823f992" testId="f3c93951-4684-4e48-19d6-dbcdca957b03" testName="GenerateSingleRoundResultTest_PartialRoundRobin" computerName="LT0085" duration="00:00:00.0009927" startTime="2010-11-08T06:53:44.9646376-06:00" endTime="2010-11-08T06:53:44.9676378-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="04733fdf-5891-4bab-b7df-366ffc56008e" testId="f6ed9d7e-4779-9fe2-3b8e-3ec4774e0ac1" testName="RunTest_RrTS_1_FirstTo2" computerName="LT0085" duration="00:00:00.0032956" startTime="2010-11-08T06:53:44.9696379-06:00" endTime="2010-11-08T06:53:44.9746382-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+        <DebugTrace>Number of Tournament Iterations: 10
+
+Tournament Strategy: Rr
+	1) round robin (1) first to 2
+Match Strategy: SimpleRandom
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="815dcd34-9d41-42e6-a283-e37faf112dd7" testId="fb0e9687-1457-3e79-fc31-c0f24b0951f9" testName="RunTest" computerName="LT0085" duration="00:00:00.0005205" startTime="2010-11-08T06:53:44.9766383-06:00" endTime="2010-11-08T06:53:44.9796385-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+      <Output>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

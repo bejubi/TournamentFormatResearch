@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9bfbc0d5-db1d-4146-aa09-985ab7892c42" name="mjohnson@LT0085 2010-11-04 08:08:16" runUser="SKYLINE\mjohnson" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2006">
+  <TestRunConfiguration name="Local Test Run" id="d25656e5-eac1-495e-87e3-370cd44268f9">
+    <Description>This is a default test run configuration for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TestResults" useDefaultDeploymentRoot="false" runDeploymentRoot="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TestResults\mjohnson_LT0085 2010-11-04 08_08_16">
+      <DeploymentItem filename="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\ReferencedAssemblies\MathNet.Iridium.dll" />
+      <DeploymentItem filename="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\bin\Release\TournamentSimulation.dll" />
+    </Deployment>
+    <TestTypeSpecific />
+  </TestRunConfiguration>
+  <ResultSummary outcome="Error">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="1" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="LT0085" outcome="Error" timestamp="2010-11-04T08:08:17.0753853-05:00">
+        <Text>Failed to queue test run 'mjohnson@LT0085 2010-11-04 08:08:16': Test Run deployment issue: The location of the file or directory 'c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\release\MathNet.Iridium.dll' is not trusted.</Text>
+        <Exception>Microsoft.VisualStudio.TestTools.TestManagement.ExecutionException: Test Run deployment issue: The location of the file or directory 'c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\release\MathNet.Iridium.dll' is not trusted.
+   at Microsoft.VisualStudio.TestTools.TestManagement.DeploymentManager.DoDeployment(TestRun run, FileCopyService fileCopyService)
+   at Microsoft.VisualStudio.TestTools.TestManagement.ControllerProxy.SetupTestRun(TestRun run, Boolean isNewTestRun, FileCopyService&amp; fileCopyService)
+   at Microsoft.VisualStudio.TestTools.TestManagement.ControllerProxy.QueueTestRunWorker(Object state)</Exception>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <Times creation="2010-11-04T08:08:16.6933853-05:00" queuing="2010-11-04T08:08:16.6933853-05:00" start="2010-11-04T08:08:16.6933853-05:00" finish="2010-11-04T08:08:17.0753853-05:00" />
+  <TestDefinitions>
+    <UnitTest name="TestMatrixAddition" storage="c:\users\mjohnson\documents\my dropbox\personal\tournamentformatresearch\simulation\simulationsolution\tournamentsimulation.test\bin\release\tournamentsimulation.test.dll" id="0245153c-0a6c-d362-9836-1ab19b6006d9">
+      <Css projectStructure="" iteration="" />
+      <Owners>
+        <Owner name="" />
+      </Owners>
+      <TestMethod codeBase="C:\Users\mjohnson\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Release\TournamentSimulation.Test.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TournamentSimulation.Test.Experimental, TournamentSimulation.Test" name="TestMatrixAddition" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="0245153c-0a6c-d362-9836-1ab19b6006d9" executionId="379a0276-78ea-45be-9c22-838af0e7e44f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="379a0276-78ea-45be-9c22-838af0e7e44f" testId="0245153c-0a6c-d362-9836-1ab19b6006d9" testName="TestMatrixAddition" computerName="LT0085" duration="00:00:00" startTime="0001-01-01T00:00:00.0000000-06:00" endTime="0001-01-01T00:00:00.0000000-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotExecuted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d">
+    </UnitTestResult>
+  </Results>
+</TestRun>

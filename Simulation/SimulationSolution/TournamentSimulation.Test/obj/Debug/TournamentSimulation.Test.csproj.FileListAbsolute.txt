@@ -1,0 +1,10 @@
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.dll
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.Test.pdb
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\MathNet.Iridium.dll
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.dll
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation.pdb
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation_Accessor.dll
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\bin\Debug\TournamentSimulation_Accessor.pdb
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\obj\Debug\TournamentSimulation.Test.dll
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.Test\obj\Debug\TournamentSimulation.Test.pdb

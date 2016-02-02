@@ -1,0 +1,893 @@
+===============================================================================================
+
+Tournament Strategy: Ko
+	1) knockout semifinal first to 2, final knockout first to 2, keep all remaining ties
+
+Could not run this study. Error: Collection count must be even.
+Parameter name: competitors
+
+===============================================================================================
+
+Tournament Strategy: Ko
+	1) knockout semifinal first to 2, final knockout first to 2, keep all remaining ties
+
+Could not run this study. Error: Collection count must be even.
+Parameter name: competitors
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (1) first to 1
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	45.916	21.904
+	all competitors, adjusted for odd(mean, std dev):	47.829	22.816
+	all competitors, raw (mean, std dev):		1.148	0.548
+Combined transformation matrix adjusted determinant:	0.098
+
+Combined transformation matrix:
+39.14  24.89  19.83  10.53  05.60
+26.39  26.26  21.24  15.04  11.07
+17.44  20.86  22.49  21.67  17.53
+10.60  16.19  19.81  26.26  27.14
+06.42  11.80  16.62  26.50  38.66
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	2.19	1.22
+B:	75	2	2.58	1.32
+C:	56	3	3.01	1.35
+D:	42	4	3.43	1.32
+E:	32	5	3.79	1.25
+
+Rank Frequencies:
+
+A:
+1 ***************************************	
+2 *************************	
+3 ********************	
+4 ***********	
+5 ******	
+
+B:
+1 **************************	
+2 **************************	
+3 *********************	
+4 ***************	
+5 ***********	
+
+C:
+1 *****************	
+2 *********************	
+3 **********************	
+4 **********************	
+5 ******************	
+
+D:
+1 ***********	
+2 ****************	
+3 ********************	
+4 **************************	
+5 ***************************	
+
+E:
+1 ******	
+2 ************	
+3 *****************	
+4 **************************	
+5 ***************************************	
+
+Run Time: 00:06:55.2614000
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (1) first to 2
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	38.194	20.337
+	all competitors, adjusted for odd(mean, std dev):	39.785	21.184
+	all competitors, raw (mean, std dev):		0.955	0.508
+Combined transformation matrix adjusted determinant:	0.175
+
+Combined transformation matrix:
+48.25  26.11  16.51  06.71  02.42
+27.05  31.10  22.38  12.33  07.14
+14.96  21.06  26.84  21.79  15.35
+06.81  13.75  20.62  29.98  28.83
+02.93  07.97  13.65  29.18  46.27
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.89	1.06
+B:	75	2	2.41	1.21
+C:	56	3	3.02	1.28
+D:	42	4	3.6	1.22
+E:	32	5	4.08	1.08
+
+Rank Frequencies:
+
+A:
+1 ************************************************	
+2 **************************	
+3 *****************	
+4 *******	
+5 **	
+
+B:
+1 ***************************	
+2 *******************************	
+3 **********************	
+4 ************	
+5 *******	
+
+C:
+1 ***************	
+2 *********************	
+3 ***************************	
+4 **********************	
+5 ***************	
+
+D:
+1 *******	
+2 **************	
+3 *********************	
+4 ******************************	
+5 *****************************	
+
+E:
+1 ***	
+2 ********	
+3 **************	
+4 *****************************	
+5 **********************************************	
+
+Run Time: 00:06:55.1316000
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (1) first to 2
+Match Strategy: SimpleRandom
+
+Competitors: 8
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	22.941	9.461
+	all competitors, adjusted for odd(mean, std dev):	22.941	9.461
+	all competitors, raw (mean, std dev):		0.918	0.378
+Combined transformation matrix adjusted determinant:	0.122
+
+Combined transformation matrix:
+59.52  23.05  10.70  05.08  01.55  00.09  00.00  00.00
+15.64  26.42  24.22  20.61  11.32  01.57  00.21  00.02
+12.65  21.04  25.74  23.09  14.58  02.53  00.34  00.03
+08.85  19.24  22.75  24.36  20.67  03.49  00.58  00.06
+03.33  10.07  15.72  23.73  36.59  08.38  01.89  00.29
+00.02  00.16  00.76  02.54  11.07  48.42  22.53  14.50
+00.00  00.01  00.07  00.38  02.65  22.98  35.66  38.25
+00.00  00.00  00.04  00.22  01.57  12.54  38.79  46.84
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	95	1	1.66	0.97
+B:	50	2	2.91	1.31
+C:	45	3	3.15	1.34
+D:	40	4	3.42	1.37
+E:	30	5	4.14	1.33
+F:	10	6	6.32	1.01
+G:	6	7	7.09	0.87
+H:	5	8	7.3	0.77
+
+Rank Frequencies:
+
+A:
+1 ************************************************************	
+2 ***********************	
+3 ***********	
+4 *****	
+5 **	
+6 	
+7 	
+8 	
+
+B:
+1 ****************	
+2 **************************	
+3 ************************	
+4 *********************	
+5 ***********	
+6 **	
+7 	
+8 	
+
+C:
+1 *************	
+2 *********************	
+3 **************************	
+4 ***********************	
+5 ***************	
+6 ***	
+7 	
+8 	
+
+D:
+1 *********	
+2 *******************	
+3 ***********************	
+4 ************************	
+5 *********************	
+6 ***	
+7 *	
+8 	
+
+E:
+1 ***	
+2 **********	
+3 ****************	
+4 ************************	
+5 *************************************	
+6 ********	
+7 **	
+8 	
+
+F:
+1 	
+2 	
+3 *	
+4 ***	
+5 ***********	
+6 ************************************************	
+7 ***********************	
+8 ***************	
+
+G:
+1 	
+2 	
+3 	
+4 	
+5 ***	
+6 ***********************	
+7 ************************************	
+8 **************************************	
+
+H:
+1 	
+2 	
+3 	
+4 	
+5 **	
+6 *************	
+7 ***************************************	
+8 ***********************************************	
+
+Run Time: 00:14:37.5156000
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (10) first to 1
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	19.411	14.782
+	all competitors, adjusted for odd(mean, std dev):	20.219	15.398
+	all competitors, raw (mean, std dev):		0.485	0.37
+Combined transformation matrix adjusted determinant:	0.501
+
+Combined transformation matrix:
+71.90  22.53  04.85  00.67  00.05
+22.99  51.83  19.98  04.56  00.63
+04.46  20.26  49.50  20.35  05.43
+00.58  04.56  19.95  50.21  24.70
+00.06  00.81  05.71  24.22  69.20
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.34	0.61
+B:	75	2	2.08	0.81
+C:	56	3	3.02	0.9
+D:	42	4	3.94	0.82
+E:	32	5	4.62	0.64
+
+Rank Frequencies:
+
+A:
+1 ************************************************************************	
+2 ***********************	
+3 *****	
+4 *	
+5 	
+
+B:
+1 ***********************	
+2 ****************************************************	
+3 ********************	
+4 *****	
+5 *	
+
+C:
+1 ****	
+2 ********************	
+3 *************************************************	
+4 ********************	
+5 *****	
+
+D:
+1 *	
+2 *****	
+3 ********************	
+4 **************************************************	
+5 *************************	
+
+E:
+1 	
+2 *	
+3 ******	
+4 ************************	
+5 *********************************************************************	
+
+Run Time: 00:16:03.3156000
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (2) first to 1
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	39.192	20.549
+	all competitors, adjusted for odd(mean, std dev):	40.825	21.405
+	all competitors, raw (mean, std dev):		0.98	0.514
+Combined transformation matrix adjusted determinant:	0.154
+
+Combined transformation matrix:
+47.65  26.71  15.08  07.53  03.02
+28.02  29.84  21.61  13.45  07.07
+14.88  22.05  25.98  21.97  15.13
+07.27  14.00  21.50  28.85  28.38
+03.52  08.33  15.43  26.90  45.81
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.92	1.09
+B:	75	2	2.42	1.22
+C:	56	3	3	1.28
+D:	42	4	3.57	1.24
+E:	32	5	4.03	1.12
+
+Rank Frequencies:
+
+A:
+1 ************************************************	
+2 ***************************	
+3 ***************	
+4 ********	
+5 ***	
+
+B:
+1 ****************************	
+2 ******************************	
+3 **********************	
+4 *************	
+5 *******	
+
+C:
+1 ***************	
+2 **********************	
+3 **************************	
+4 **********************	
+5 ***************	
+
+D:
+1 *******	
+2 **************	
+3 *********************	
+4 *****************************	
+5 ****************************	
+
+E:
+1 ****	
+2 ********	
+3 ***************	
+4 ***************************	
+5 **********************************************	
+
+Run Time: 00:07:40.9800000
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (2.1) first to 1
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	38.056	20.202
+	all competitors, adjusted for odd(mean, std dev):	39.642	21.044
+	all competitors, raw (mean, std dev):		0.951	0.505
+Combined transformation matrix adjusted determinant:	0.171
+
+Combined transformation matrix:
+48.68  25.97  14.94  07.25  03.16
+28.19  30.54  21.36  13.73  06.18
+14.22  22.44  26.59  22.37  14.38
+06.39  13.55  21.65  29.82  28.59
+02.77  07.68  15.34  26.60  47.61
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.9	1.1
+B:	75	2	2.39	1.2
+C:	56	3	3	1.26
+D:	42	4	3.61	1.21
+E:	32	5	4.09	1.09
+
+Rank Frequencies:
+
+A:
+1 *************************************************	
+2 **************************	
+3 ***************	
+4 *******	
+5 ***	
+
+B:
+1 ****************************	
+2 *******************************	
+3 *********************	
+4 **************	
+5 ******	
+
+C:
+1 **************	
+2 **********************	
+3 ***************************	
+4 **********************	
+5 **************	
+
+D:
+1 ******	
+2 **************	
+3 **********************	
+4 ******************************	
+5 *****************************	
+
+E:
+1 ***	
+2 ********	
+3 ***************	
+4 ***************************	
+5 ************************************************	
+
+Run Time: 00:06:51.1536000
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (2.5) first to 1
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	37.31	20.347
+	all competitors, adjusted for odd(mean, std dev):	38.865	21.195
+	all competitors, raw (mean, std dev):		0.933	0.509
+Combined transformation matrix adjusted determinant:	0.181
+
+Combined transformation matrix:
+49.31  26.88  13.98  06.99  02.84
+28.73  29.89  21.39  13.70  06.29
+13.30  23.08  27.78  21.52  14.32
+06.14  13.03  21.71  31.07  28.04
+02.61  07.14  15.11  26.66  48.48
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.87	1.07
+B:	75	2	2.39	1.21
+C:	56	3	3	1.25
+D:	42	4	3.62	1.19
+E:	32	5	4.11	1.07
+
+Rank Frequencies:
+
+A:
+1 *************************************************	
+2 ***************************	
+3 **************	
+4 *******	
+5 ***	
+
+B:
+1 *****************************	
+2 ******************************	
+3 *********************	
+4 **************	
+5 ******	
+
+C:
+1 *************	
+2 ***********************	
+3 ****************************	
+4 **********************	
+5 **************	
+
+D:
+1 ******	
+2 *************	
+3 **********************	
+4 *******************************	
+5 ****************************	
+
+E:
+1 ***	
+2 *******	
+3 ***************	
+4 ***************************	
+5 ************************************************	
+
+Run Time: 00:07:05.5992000
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (2) first to 2
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	29.969	18.045
+	all competitors, adjusted for odd(mean, std dev):	31.218	18.796
+	all competitors, raw (mean, std dev):		0.749	0.451
+Combined transformation matrix adjusted determinant:	0.286
+
+Combined transformation matrix:
+58.63  26.43  10.79  03.40  00.75
+27.45  37.60  22.08  09.64  03.22
+10.62  22.41  33.52  22.47  10.99
+03.30  10.10  21.99  36.05  28.56
+00.91  04.01  11.48  27.56  56.04
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.61	0.86
+B:	75	2	2.24	1.06
+C:	56	3	3.01	1.15
+D:	42	4	3.76	1.07
+E:	32	5	4.34	0.9
+
+Rank Frequencies:
+
+A:
+1 ***********************************************************	
+2 **************************	
+3 ***********	
+4 ***	
+5 *	
+
+B:
+1 ***************************	
+2 **************************************	
+3 **********************	
+4 **********	
+5 ***	
+
+C:
+1 ***********	
+2 **********************	
+3 **********************************	
+4 **********************	
+5 ***********	
+
+D:
+1 ***	
+2 **********	
+3 **********************	
+4 ************************************	
+5 *****************************	
+
+E:
+1 *	
+2 ****	
+3 ***********	
+4 ****************************	
+5 ********************************************************	
+
+Run Time: 00:07:42.1968000
+
+===============================================================================================
+Tournament Strategy: Rr
+	1) round robin (3) first to 1
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	34.46	19.438
+	all competitors, adjusted for odd(mean, std dev):	35.896	20.248
+	all competitors, raw (mean, std dev):		0.861	0.486
+Combined transformation matrix adjusted determinant:	0.216
+
+Combined transformation matrix:
+53.07  26.62  13.11  05.49  01.71
+27.72  33.09  22.14  12.00  05.05
+12.51  22.35  29.28  22.69  13.18
+04.92  12.06  21.88  32.42  28.73
+01.85  05.94  13.58  27.32  51.31
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.76	0.99
+B:	75	2	2.34	1.15
+C:	56	3	3.02	1.22
+D:	42	4	3.68	1.15
+E:	32	5	4.2	1.01
+
+Rank Frequencies:
+
+A:
+1 *****************************************************	
+2 ***************************	
+3 *************	
+4 *****	
+5 **	
+
+B:
+1 ****************************	
+2 *********************************	
+3 **********************	
+4 ************	
+5 *****	
+
+C:
+1 *************	
+2 **********************	
+3 *****************************	
+4 ***********************	
+5 *************	
+
+D:
+1 *****	
+2 ************	
+3 **********************	
+4 ********************************	
+5 *****************************	
+
+E:
+1 **	
+2 ******	
+3 **************	
+4 ***************************	
+5 ***************************************************	
+
+Run Time: 00:08:18.0924000
+
+===============================================================================================
+
+Tournament Strategy: RrKo1
+	1) round robin (2); 2) flip competitors and have a single knockout round first to 2, break ties by round robin rank
+
+Could not run this study. Error: Collection count must be even.
+Parameter name: competitors
+
+===============================================================================================
+
+Tournament Strategy: RrKo1a
+	1) round robin (2); 2) pair nearby competitors and have a single knockout match first to 2 between each pair
+
+Could not run this study. Error: Collection count must be even.
+Parameter name: competitors
+
+===============================================================================================
+Tournament Strategy: RrKoSf5PfFi
+	1) round robin (2); 2) 1st place gets a bye to the finals; 3) semifinals first to 2 2nd & 3rd compete for 2nd spot in finals and 1st spot in petit finals, 4th & 5th compete for 2nd spot in petit finals; 4) finals first to 2, petit finals first to 2
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	35.405	19.716
+	all competitors, adjusted for odd(mean, std dev):	36.88	20.537
+	all competitors, raw (mean, std dev):		0.885	0.493
+Combined transformation matrix adjusted determinant:	0.196
+
+Combined transformation matrix:
+52.49  25.08  15.44  04.75  02.25
+28.10  31.23  23.84  10.98  05.84
+12.64  22.96  28.56  21.81  14.03
+04.91  13.40  20.23  32.58  28.89
+01.86  07.34  11.93  29.88  48.99
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.79	1.01
+B:	75	2	2.35	1.17
+C:	56	3	3.02	1.23
+D:	42	4	3.67	1.17
+E:	32	5	4.17	1.02
+
+Rank Frequencies:
+
+A:
+1 ****************************************************	
+2 *************************	
+3 ***************	
+4 *****	
+5 **	
+
+B:
+1 ****************************	
+2 *******************************	
+3 ************************	
+4 ***********	
+5 ******	
+
+C:
+1 *************	
+2 ***********************	
+3 *****************************	
+4 **********************	
+5 **************	
+
+D:
+1 *****	
+2 *************	
+3 ********************	
+4 *********************************	
+5 *****************************	
+
+E:
+1 **	
+2 *******	
+3 ************	
+4 ******************************	
+5 *************************************************	
+
+Run Time: 00:09:12.9732000
+
+===============================================================================================
+
+Tournament Strategy: RrKoSfFi
+	1) round robin (2), 2)semifinal first to 2, final knockout first to 2, break remaining ties by round robin results
+
+Could not run this study. Error: Collection count must be even.
+Parameter name: competitors
+
+===============================================================================================
+Tournament Strategy: RrKoSfPfFi
+	1) round robin (2), 2) semifinal first to 2; 3) final first to 2, petit final first to 2, lower than 5th keeps their tie at 5th
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	38.816	20.677
+	all competitors, adjusted for odd(mean, std dev):	40.433	21.539
+	all competitors, raw (mean, std dev):		0.97	0.517
+Combined transformation matrix adjusted determinant:	0.161
+
+Combined transformation matrix:
+48.72  22.62  19.17  06.39  03.11
+28.19  28.62  23.94  12.06  07.19
+14.06  23.16  26.09  21.44  15.26
+06.33  15.85  18.95  30.39  28.48
+02.70  09.75  11.84  29.72  45.98
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.93	1.1
+B:	75	2	2.41	1.22
+C:	56	3	3.01	1.27
+D:	42	4	3.59	1.23
+E:	32	5	4.07	1.1
+
+Rank Frequencies:
+
+A:
+1 *************************************************	
+2 ***********************	
+3 *******************	
+4 ******	
+5 ***	
+
+B:
+1 ****************************	
+2 *****************************	
+3 ************************	
+4 ************	
+5 *******	
+
+C:
+1 **************	
+2 ***********************	
+3 **************************	
+4 *********************	
+5 ***************	
+
+D:
+1 ******	
+2 ****************	
+3 *******************	
+4 ******************************	
+5 ****************************	
+
+E:
+1 ***	
+2 **********	
+3 ************	
+4 ******************************	
+5 **********************************************	
+
+Run Time: 00:09:22.9416000
+
+===============================================================================================
+Tournament Strategy: RrKoSfPfFiRr
+	1) round robin (2) to seed knockout, 2) semifinals first to 2, 3) petit finals first to 2, finals knockout first to 2 for top four, 4) round robin (2) consolation for remainder
+Match Strategy: SimpleRandom
+
+Competitors: 5
+
+Average Tournament Mean Abosolute Difference (MAD)
+	all competitors, standardized(mean, std dev):	38.823	20.685
+	all competitors, adjusted for odd(mean, std dev):	40.44	21.547
+	all competitors, raw (mean, std dev):		0.971	0.517
+Combined transformation matrix adjusted determinant:	0.16
+
+Combined transformation matrix:
+48.72  22.61  19.19  06.37  03.12
+28.21  28.64  23.93  12.05  07.16
+14.04  23.17  26.03  21.45  15.30
+06.33  15.85  18.96  30.36  28.50
+02.70  09.74  11.88  29.77  45.92
+
+Competitors (rating, initial rank, tournament rank mean and std. dev.):
+A:	100	1	1.93	1.1
+B:	75	2	2.41	1.22
+C:	56	3	3.01	1.27
+D:	42	4	3.59	1.23
+E:	32	5	4.06	1.1
+
+Rank Frequencies:
+
+A:
+1 *************************************************	
+2 ***********************	
+3 *******************	
+4 ******	
+5 ***	
+
+B:
+1 ****************************	
+2 *****************************	
+3 ************************	
+4 ************	
+5 *******	
+
+C:
+1 **************	
+2 ***********************	
+3 **************************	
+4 *********************	
+5 ***************	
+
+D:
+1 ******	
+2 ****************	
+3 *******************	
+4 ******************************	
+5 *****************************	
+
+E:
+1 ***	
+2 **********	
+3 ************	
+4 ******************************	
+5 **********************************************	
+
+Run Time: 00:06:00.5600000
+
+===============================================================================================
+
+Tournament Strategy: RrRrSf5KoFiPf
+	1) round robin (2); 2) seed 1-4 into RRA (1) and 5-8 into RRB (1); 3) RRA 1, 2 go to finals, RRA 3, RRB 1 go to petit finals, all others to a consolation RR; 4) finals first to 2, petit finals first to 2, consolation round robin (1)
+
+Could not run this study. Error: Collection count must be 8.
+Parameter name: competitors
+
+===============================================================================================
+Done

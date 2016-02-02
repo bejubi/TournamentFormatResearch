@@ -1,0 +1,12 @@
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\TournamentSimulation.StudyRunner.exe
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\TournamentSimulation.StudyRunner.pdb
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\MathNet.Iridium.dll
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\TournamentSimulation.dll
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\TournamentSimulation.pdb
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.Form1.resources
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.Properties.Resources.resources
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.exe
+C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.pdb

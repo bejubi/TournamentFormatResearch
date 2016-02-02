@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SimulationSolution.08">
+</Property><Property Name="Solution File" Value="C:\Users\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\SimulationSolution.08.sln">
+</Property><Property Name="Date" Value="Friday, June 22, 2012">
+</Property><Property Name="Time" Value="17:15 PM">
+</Property></Properties><Event ErrorLevel="0" Project="TournamentSimulation.08" Source="TournamentSimulation\TournamentSimulation.08.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TournamentSimulation.08" Source="TournamentSimulation\TournamentSimulation.08.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TournamentSimulation.Test.08" Source="TournamentSimulation.Test\TournamentSimulation.Test.08.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TournamentSimulation.Test.08" Source="TournamentSimulation.Test\TournamentSimulation.Test.08.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TournamentSimulation.StudyRunner.08" Source="TournamentSimulation.StudyRunner\TournamentSimulation.StudyRunner.08.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="TournamentSimulation.StudyRunner.08" Source="TournamentSimulation.StudyRunner\TournamentSimulation.StudyRunner.08.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SimulationSolution.08.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SimulationSolution.08.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TournamentSimulation.08" Source="TournamentSimulation\TournamentSimulation.08.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.08.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.08.testrunconfig" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="3" Project="" Source="SimulationSolution.08.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SimulationSolution.08.vsmdi" Description="The file was converted to the current format.">
+</Event><Event ErrorLevel="0" Project="TournamentSimulation.Test.08" Source="TournamentSimulation.Test\TournamentSimulation.Test.08.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event><Event ErrorLevel="0" Project="TournamentSimulation.StudyRunner.08" Source="TournamentSimulation.StudyRunner\TournamentSimulation.StudyRunner.08.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
