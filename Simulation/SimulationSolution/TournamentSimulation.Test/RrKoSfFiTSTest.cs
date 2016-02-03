@@ -72,7 +72,7 @@ namespace TournamentSimulation.Test
         [DeploymentItem("TournamentSimulation.dll")]
         public void BreakTiesTest()
         {
-            List<Competitor> competitors = CompetitorListHelper.GetStandardCompetitors(8);
+            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
 
             CompetitorRanks roundRobinRanks = new CompetitorRanks();
             CompetitorRanks finalRanks = new CompetitorRanks();

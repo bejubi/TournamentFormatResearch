@@ -10,3 +10,14 @@ C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\
 C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\GenerateResource.write.1.tlog
 C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.exe
 C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.pdb
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.exe
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.pdb
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\TournamentSimulation.StudyRunner.exe
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\TournamentSimulation.StudyRunner.pdb
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\MathNet.Iridium.dll
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\TournamentSimulation.dll
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\bin\Debug\TournamentSimulation.pdb
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.csprojResolveAssemblyReference.cache
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.Form1.resources
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.Properties.Resources.resources
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation.StudyRunner\obj\x86\Debug\TournamentSimulation.StudyRunner.csproj.GenerateResource.Cache

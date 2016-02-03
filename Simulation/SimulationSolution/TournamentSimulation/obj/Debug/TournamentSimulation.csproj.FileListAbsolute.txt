@@ -4,3 +4,9 @@ C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\
 C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\obj\Debug\ResolveAssemblyReference.cache
 C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\obj\Debug\TournamentSimulation.dll
 C:\Users\Mark\Documents\My Dropbox\Personal\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\obj\Debug\TournamentSimulation.pdb
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\obj\Debug\TournamentSimulation.csprojResolveAssemblyReference.cache
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\obj\Debug\TournamentSimulation.dll
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\bin\Debug\TournamentSimulation.dll
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\bin\Debug\TournamentSimulation.pdb
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\bin\Debug\MathNet.Iridium.dll
+D:\Mark\Documents\Sailing\MatchRacing\TournamentFormatResearch\Simulation\SimulationSolution\TournamentSimulation\obj\Debug\TournamentSimulation.pdb

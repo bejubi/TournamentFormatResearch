@@ -71,14 +71,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Competitor.cs" />
-    <Compile Include="CompetitorListHelper.cs" />
+    <Compile Include="Helpers\CompetitorListHelper.cs" />
     <Compile Include="CompetitorPoints.cs" />
     <Compile Include="CompetitorRanks.cs" />
     <Compile Include="MatchStrategies\MatchStrategy.cs" />
     <Compile Include="MatchStrategies\NonRandomMS.cs" />
     <Compile Include="MatchStrategies\SimpleRandomMS.cs" />
-    <Compile Include="RandomHelper.cs" />
-    <Compile Include="StatisticsHelper.cs" />
+    <Compile Include="Helpers\RandomHelper.cs" />
+    <Compile Include="Helpers\StatisticsHelper.cs" />
     <Compile Include="TournamentRoundStrategies\KoSf5PfFiTRS.cs" />
     <Compile Include="TournamentRoundStrategies\KoSfFiTRS.cs" />
     <Compile Include="TournamentRoundStrategies\KoSfPfFiTRS.cs" />

@@ -75,7 +75,6 @@
     <Compile Include="AllStrategyTests.cs" />
     <Compile Include="CompetitorListHelperTest.cs" />
     <Compile Include="CompetitorPointsTest.cs" />
-    <Compile Include="Experimental.cs" />
     <Compile Include="KoSf5PfFiTRSTest.cs" />
     <Compile Include="KoSfFiTRSTest.cs" />
     <Compile Include="KoSfPfFiTRSTest.cs" />

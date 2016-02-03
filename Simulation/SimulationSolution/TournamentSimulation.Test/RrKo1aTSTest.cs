@@ -74,7 +74,7 @@ namespace TournamentSimulation.Test
             RrKo1aTS target = new RrKo1aTS(2, 2);
             int tournamentRunSequence = 1;
             MatchStrategy matchStrategy = new NonRandomMS();
-            List<Competitor> competitors = CompetitorListHelper.GetStandardCompetitors(8);
+            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
             CompetitorRanks ranks = target.GenerateResult(tournamentRunSequence, matchStrategy, competitors);
 
             int i = 1;
