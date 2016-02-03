@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using System.Diagnostics;
 using System.Linq;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-
 using TournamentSimulation.MatchStrategies;
 using TournamentSimulation.TournamentStrategies;
 
@@ -13,27 +10,16 @@ namespace TournamentSimulation.Test
     ///This is a test class for StudyTest and is intended
     ///to contain all StudyTest Unit Tests
     ///</summary>
-    [TestClass()]
+    [TestClass]
     public class StudyTest
     {
         #region Setup
-        private TestContext testContextInstance;
 
         /// <summary>
         ///Gets or sets the test context which provides
         ///information about and functionality for the current test run.
         ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
+        public TestContext TestContext { get; set; }
 
         #region Additional test attributes
         // 
@@ -64,11 +50,12 @@ namespace TournamentSimulation.Test
         //}
         //
         #endregion
+
         #endregion
 
         private const int _numberOfTournamentIterations = 10;
 
-        [TestMethod()]
+        [TestMethod]
         public void RunTest_RoundRobinThenQuarterfinals_NonRandomMatches()
         {
             var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
@@ -76,7 +63,7 @@ namespace TournamentSimulation.Test
             TournamentStrategy tournamentStrategy = new RrKoSfFiTS(2.0, 2);
             MatchStrategy matchStrategy = new NonRandomMs();
 
-            Study study = new Study(tournamentStrategy, matchStrategy, false);
+            var study = new Study(tournamentStrategy, matchStrategy, false);
             study.Run(competitors, _numberOfTournamentIterations);
 
             DisplayTestResults(tournamentStrategy, matchStrategy, study);
@@ -91,7 +78,7 @@ namespace TournamentSimulation.Test
             Assert.AreEqual(8, competitors[7].TournamentRankMean);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void RunTest_Knockout()
         {
             var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
@@ -99,19 +86,19 @@ namespace TournamentSimulation.Test
             TournamentStrategy tournamentStrategy = new KoTS(2);
             MatchStrategy matchStrategy = new SimpleRandomMs();
 
-            Study study = new Study(tournamentStrategy, matchStrategy, false);
+            var study = new Study(tournamentStrategy, matchStrategy, false);
             study.Run(competitors, _numberOfTournamentIterations);
 
-            foreach (Competitor competitor in competitors)
+            foreach (var competitor in competitors)
             {
-                foreach (KeyValuePair<int, int> rankFrequency in competitor.RankFrequencies.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
+                foreach (var rankFrequency in competitor.RankFrequencies.OrderByDescending(x => x.Value).ThenBy(x => x.Key))
                 {
                     Assert.IsTrue(rankFrequency.Key > 0);
                 }
             }
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void RunTest_RrRrSf5KoFiPfTS()
         {
             var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
@@ -119,7 +106,7 @@ namespace TournamentSimulation.Test
             TournamentStrategy tournamentStrategy = new RrRrSf5KoFiPfTS(1.0, 1.0, 2, 2, 1.0);
             MatchStrategy matchStrategy = new NonRandomMs();
 
-            Study study = new Study(tournamentStrategy, matchStrategy, false);
+            var study = new Study(tournamentStrategy, matchStrategy, false);
             study.Run(competitors, _numberOfTournamentIterations);
 
             DisplayTestResults(tournamentStrategy, matchStrategy, study);
@@ -139,17 +126,15 @@ namespace TournamentSimulation.Test
             DisplayTestResults(tournamentStrategy, matchStrategy, study);
         }
 
-        #region Helper Methods
-        private void DisplayTestResults(TournamentStrategy tournamentStrategy, MatchStrategy matchStrategy, Study study)
+        private static void DisplayTestResults(TournamentStrategy tournamentStrategy, MatchStrategy matchStrategy, Study study)
         {
             Trace.WriteLine("Study Parameters:");
-            Trace.WriteLine(string.Format("Tournament Strategy: {0}", tournamentStrategy.GetType().ToString()));
-            Trace.WriteLine(string.Format("Match Strategy: {0}", matchStrategy.GetType().ToString()));
+            Trace.WriteLine(string.Format("Tournament Strategy: {0}", tournamentStrategy.GetType()));
+            Trace.WriteLine(string.Format("Match Strategy: {0}", matchStrategy.GetType()));
             Trace.WriteLine(string.Format("Number of Tournament Iterations: {0}", _numberOfTournamentIterations));
 
             Trace.WriteLine("");
             Trace.WriteLine(study.StrategyInformation);
         }
-        #endregion
     }
 }
