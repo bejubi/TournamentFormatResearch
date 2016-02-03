@@ -1,3 +1,6 @@
 *.pdb
 *.exe
-Simulation/SimulationSolution/TournamentSimulation.Test/obj/Debug/TournamentSimulation_Accessor.dll
+Simulation/SimulationSolution/TournamentSimulation.Test/obj/Debug/TournamentSimulation.Test.csproj.FileListAbsolute.txt
+Simulation/SimulationSolution/TournamentSimulation.StudyRunner/obj/x86/Debug/TournamentSimulation.StudyRunner.csproj.FileListAbsolute.txt
+*.Cache
+*.dll
