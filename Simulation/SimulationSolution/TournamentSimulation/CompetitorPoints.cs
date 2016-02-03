@@ -1,17 +1,16 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace TournamentSimulation
 {
     public class CompetitorPoints : Dictionary<Competitor, double>
     {
-        public CompetitorPoints() : base() { }
+        public CompetitorPoints() { }
 
         public CompetitorPoints(Dictionary<Competitor, double> competitorPointsDictionary)
         {
-            foreach (KeyValuePair<Competitor, double> competitorPoint in competitorPointsDictionary)
+            foreach (var competitorPoint in competitorPointsDictionary)
             {
                 this.Add(competitorPoint.Key, competitorPoint.Value);
             }
@@ -19,14 +18,14 @@ namespace TournamentSimulation
 
         public CompetitorRanks GetCompetitorRanks()
         {
-            CompetitorRanks tournamentRoundRanks = new CompetitorRanks();
+            var tournamentRoundRanks = new CompetitorRanks();
 
             // sort by highest score and assign places, including ties
-            int rank = 1;
-            int previousTiedRank = 0;
+            var rank = 1;
+            var previousTiedRank = 0;
             double previousScore = 0;
 
-            foreach (KeyValuePair<Competitor, double> competitorPoints in this.OrderByDescending(x => x.Value))
+            foreach (var competitorPoints in this.OrderByDescending(x => x.Value))
             {
                 if (Math.Round(competitorPoints.Value, 5) == Math.Round(previousScore, 5))
                 {

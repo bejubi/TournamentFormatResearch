@@ -84,7 +84,7 @@ namespace TournamentSimulation.Test
                 competitor.InitialRank = initialRank++;
             }
 
-            TournamentRound round = new TournamentRound(new KoTRS(1), new NonRandomMS());
+            TournamentRound round = new TournamentRound(new KoTRS(1), new NonRandomMs());
             round.Run(competitors);
 
             foreach (Match match in round.Matches)
@@ -99,7 +99,7 @@ namespace TournamentSimulation.Test
         {
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(7);
 
-            TournamentRound round = new TournamentRound(new KoTRS(1), new NonRandomMS());
+            TournamentRound round = new TournamentRound(new KoTRS(1), new NonRandomMs());
             round.Run(competitors);
         }
 
@@ -108,7 +108,7 @@ namespace TournamentSimulation.Test
         {
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(7);
 
-            TournamentRound round = new TournamentRound(new RrTRS(), new NonRandomMS());
+            TournamentRound round = new TournamentRound(new RrTRS(), new NonRandomMs());
             round.Run(competitors);
 
             foreach (Match match in round.Matches)

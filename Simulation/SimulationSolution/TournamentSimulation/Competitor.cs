@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace TournamentSimulation
 {
@@ -11,30 +10,29 @@ namespace TournamentSimulation
     public class Competitor
     {
         #region Fields and Properties
+        
         public string Name { get; set; }
         public int TheoreticalRating {get; set; }
-        public Nullable<int> InitialRank { get; set; }
+        public int? InitialRank { get; set; }
 
         private Dictionary<int, int> _tournamentRanks;
         public Dictionary<int, int> TournamentRanks
         {
             get
             {
-                if (_tournamentRanks == null)
-                    _tournamentRanks = new Dictionary<int, int>();
-
-                return _tournamentRanks;
+                return this._tournamentRanks ?? (this._tournamentRanks = new Dictionary<int, int>());
             }
         }
+
         #endregion
 
         public double TournamentRankMean
         {
             get
             {
-                double[] tournamentRanks = TournamentRanks
+                var tournamentRanks = TournamentRanks
                     .Select(x => (double)x.Value)
-                    .ToArray<double>();
+                    .ToArray();
 
                 return new Helpers.StatisticsHelper(tournamentRanks).Mean;
             }
@@ -44,9 +42,9 @@ namespace TournamentSimulation
         {
             get
             {
-                double[] tournamentRanks = TournamentRanks
+                var tournamentRanks = TournamentRanks
                     .Select(x => (double)x.Value)
-                    .ToArray<double>();
+                    .ToArray();
 
                 return new Helpers.StatisticsHelper(tournamentRanks).StandardDeviation;
             }
@@ -56,8 +54,8 @@ namespace TournamentSimulation
         {
             get
             {
-                Dictionary<int, int> rankFrequencies = new Dictionary<int, int>();
-                foreach (int tournamentRank in TournamentRanks.Values)
+                var rankFrequencies = new Dictionary<int, int>();
+                foreach (var tournamentRank in TournamentRanks.Values)
                 {
                     if (!rankFrequencies.ContainsKey(tournamentRank))
                         rankFrequencies.Add(tournamentRank, 0);

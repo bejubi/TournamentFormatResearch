@@ -1,34 +1,20 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
-
 using TournamentSimulation.TournamentRoundStrategies;
-using TournamentSimulation;
 using TournamentSimulation.MatchStrategies;
-using System;
 
 namespace TournamentSimulation.Test
 {
-    [TestClass()]
+    [TestClass]
     public class RrTRSTest
     {
         #region Setup
-        private TestContext testContextInstance;
 
         /// <summary>
         ///Gets or sets the test context which provides
         ///information about and functionality for the current test run.
         ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
+        public TestContext TestContext { get; set; }
 
         #region Additional test attributes
         // 
@@ -59,39 +45,115 @@ namespace TournamentSimulation.Test
         //}
         //
         #endregion
+        
         #endregion
 
-        [TestMethod()]
+        [TestMethod]
         [DeploymentItem("TournamentSimulation.dll")]
         public void BreakTiesTest_NonRandomMatches()
         {
             var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
 
-            var matches = new List<Match>();
+            var matches = new List<Match>
+                              {
+                                  (Match)new Match_Accessor {
+                                          Winner = competitors[0],
+                                          Loser = competitors[1],
+                                          RunSequence = 1
+                                      }.Target,
+                                  (Match)new Match_Accessor {
+                                          Winner = competitors[0],
+                                          Loser = competitors[2],
+                                          RunSequence = 2
+                                      }.Target,
+                                  (Match)new Match_Accessor {
+                                          Winner = competitors[0],
+                                          Loser = competitors[4],
+                                          RunSequence = 3
+                                      }.Target,
+                                  (Match)new Match_Accessor {
+                                          Winner = competitors[0],
+                                          Loser = competitors[5],
+                                          RunSequence = 4
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[1],
+                                          Loser = competitors[2],
+                                          RunSequence = 5
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[1],
+                                          Loser = competitors[3],
+                                          RunSequence = 6
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[1],
+                                          Loser = competitors[4],
+                                          RunSequence = 7
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[1],
+                                          Loser = competitors[5],
+                                          RunSequence = 8
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[2],
+                                          Loser = competitors[0],
+                                          RunSequence = 9
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[2],
+                                          Loser = competitors[3],
+                                          RunSequence = 10
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[2],
+                                          Loser = competitors[4],
+                                          RunSequence = 11
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[2],
+                                          Loser = competitors[5],
+                                          RunSequence = 12
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[3],
+                                          Loser = competitors[4],
+                                          RunSequence = 13
+                                      }.Target,
+                                  (Match)
+                                  new Match_Accessor
+                                      {
+                                          Winner = competitors[4],
+                                          Loser = competitors[5],
+                                          RunSequence = 14
+                                      }.Target,
+                                  (Match)new Match_Accessor
+                                      {
+                                          Winner = competitors[5],
+                                          Loser = competitors[3],
+                                          RunSequence = 15
+                                      }.Target
+                              };
 
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[0], Loser = competitors[1], RunSequence = 1 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[0], Loser = competitors[2], RunSequence = 2 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[0], Loser = competitors[4], RunSequence = 3 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[0], Loser = competitors[5], RunSequence = 4 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[1], Loser = competitors[2], RunSequence = 5 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[1], Loser = competitors[3], RunSequence = 6 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[1], Loser = competitors[4], RunSequence = 7 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[1], Loser = competitors[5], RunSequence = 8 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[2], Loser = competitors[0], RunSequence = 9 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[2], Loser = competitors[3], RunSequence = 10 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[2], Loser = competitors[4], RunSequence = 11 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[2], Loser = competitors[5], RunSequence = 12 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[3], Loser = competitors[4], RunSequence = 13 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[4], Loser = competitors[5], RunSequence = 14 }.Target);
-            matches.Add((Match)new Match_Accessor() { Winner = competitors[5], Loser = competitors[3], RunSequence = 15 }.Target);
-
-            CompetitorRanks tournamentRoundRanks = new CompetitorRanks();
-            tournamentRoundRanks.Add(competitors[0], 1);
-            tournamentRoundRanks.Add(competitors[1], 2);
-            tournamentRoundRanks.Add(competitors[2], 2);
-            tournamentRoundRanks.Add(competitors[3], 4);
-            tournamentRoundRanks.Add(competitors[4], 4);
-            tournamentRoundRanks.Add(competitors[5], 4);
+            var tournamentRoundRanks = new CompetitorRanks
+                                           {
+                                               { competitors[0], 1 },
+                                               { competitors[1], 2 },
+                                               { competitors[2], 2 },
+                                               { competitors[3], 4 },
+                                               { competitors[4], 4 },
+                                               { competitors[5], 4 }
+                                           };
 
             while (RrTRS_Accessor.BreakTies(tournamentRoundRanks, matches)) { };
 
@@ -103,22 +165,24 @@ namespace TournamentSimulation.Test
             Assert.AreEqual(6, tournamentRoundRanks[competitors[3]]);
         }
 
-        [TestMethod()]
+        [TestMethod]
         [DeploymentItem("TournamentSimulation.dll")]
         public void BreakTiesTest()
         {
-            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
+            var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
 
-            TournamentRound round = new TournamentRound(new RrTRS(), new SimpleRandomMS());
+            var round = new TournamentRound(new RrTRS(), new SimpleRandomMs());
             round.Run(competitors);
 
-            CompetitorRanks tournamentRoundRanks = new CompetitorRanks();
-            tournamentRoundRanks.Add(competitors[0], 1);
-            tournamentRoundRanks.Add(competitors[1], 2);
-            tournamentRoundRanks.Add(competitors[2], 2);
-            tournamentRoundRanks.Add(competitors[3], 4);
-            tournamentRoundRanks.Add(competitors[4], 4);
-            tournamentRoundRanks.Add(competitors[5], 4);
+            var tournamentRoundRanks = new CompetitorRanks
+                                           {
+                                               { competitors[0], 1 },
+                                               { competitors[1], 2 },
+                                               { competitors[2], 2 },
+                                               { competitors[3], 4 },
+                                               { competitors[4], 4 },
+                                               { competitors[5], 4 }
+                                           };
 
             RrTRS_Accessor.BreakTies(tournamentRoundRanks, round.Matches);
 
@@ -132,32 +196,34 @@ namespace TournamentSimulation.Test
             Assert.IsTrue(tournamentRoundRanks[competitors[2]] < tournamentRoundRanks[competitors[5]]);
         }
 
-        [TestMethod()]
+        [TestMethod]
         [DeploymentItem("TournamentSimulation.dll")]
         public void BreakTiesTest_ThreeWayTie()
         {
-            List<Competitor> competitors = new List<Competitor>();
-            competitors.Add(new Competitor() { Name = "A" });
-            competitors.Add(new Competitor() { Name = "B" });
-            competitors.Add(new Competitor() { Name = "C" });
+            var competitors = new List<Competitor>
+                                  {
+                                      new Competitor { Name = "A" },
+                                      new Competitor { Name = "B" },
+                                      new Competitor { Name = "C" }
+                                  };
 
-            List<Match> matches = new List<Match>();
+            var matches = new List<Match>();
 
-            Match_Accessor match_accessor;
+            var matchAccessor = new Match_Accessor { Winner = competitors[0], Loser = competitors[1], RunSequence = 1 };
+            matches.Add((Match)matchAccessor.Target);
 
-            match_accessor = new Match_Accessor() { Winner = competitors[0], Loser = competitors[1], RunSequence = 1 };
-            matches.Add((Match)match_accessor.Target);
+            matchAccessor = new Match_Accessor { Winner = competitors[1], Loser = competitors[2], RunSequence = 2 };
+            matches.Add((Match)matchAccessor.Target);
 
-            match_accessor = new Match_Accessor() { Winner = competitors[1], Loser = competitors[2], RunSequence = 2 };
-            matches.Add((Match)match_accessor.Target);
+            matchAccessor = new Match_Accessor { Winner = competitors[2], Loser = competitors[0], RunSequence = 3 };
+            matches.Add((Match)matchAccessor.Target);
 
-            match_accessor = new Match_Accessor() { Winner = competitors[2], Loser = competitors[0], RunSequence = 3 };
-            matches.Add((Match)match_accessor.Target);
-
-            CompetitorRanks tournamentRoundRanks = new CompetitorRanks();
-            tournamentRoundRanks.Add(competitors[0], 1);
-            tournamentRoundRanks.Add(competitors[1], 1);
-            tournamentRoundRanks.Add(competitors[2], 1);
+            var tournamentRoundRanks = new CompetitorRanks
+                                                       {
+                                                           { competitors[0], 1 },
+                                                           { competitors[1], 1 },
+                                                           { competitors[2], 1 }
+                                                       };
 
             while (RrTRS_Accessor.BreakTies(tournamentRoundRanks, matches)) { };
 
@@ -168,17 +234,17 @@ namespace TournamentSimulation.Test
         /// <summary>
         ///A test for GenerateSingleRoundResult
         ///</summary>
-        [TestMethod()]
+        [TestMethod]
         [DeploymentItem("TournamentSimulation.dll")]
         public void GenerateSingleRoundResultTest()
         {
-            RrTRS_Accessor target = new RrTRS_Accessor();
-            MatchStrategy matchStrategy = new NonRandomMS();
+            var target = new RrTRS_Accessor();
+            MatchStrategy matchStrategy = new NonRandomMs();
 
-            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
+            var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
 
-            double fractionOfPartialRound = 1.0;
-            List<Match> actual = target.GenerateSingleRoundResult(matchStrategy, competitors, fractionOfPartialRound);
+            const double FractionOfPartialRound = 1.0;
+            List<Match> actual = target.GenerateSingleRoundResult(matchStrategy, competitors, FractionOfPartialRound);
 
             Assert.AreEqual(15, actual.Count);
         }
@@ -186,29 +252,29 @@ namespace TournamentSimulation.Test
         /// <summary>
         ///A test for GenerateSingleRoundResult
         ///</summary>
-        [TestMethod()]
+        [TestMethod]
         [DeploymentItem("TournamentSimulation.dll")]
         public void GenerateSingleRoundResultTest_PartialRoundRobin()
         {
-            RrTRS_Accessor target = new RrTRS_Accessor();
-            MatchStrategy matchStrategy = new NonRandomMS();
+            var target = new RrTRS_Accessor();
+            MatchStrategy matchStrategy = new NonRandomMs();
 
-            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
+            var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
 
-            double fractionOfPartialRound = 0.8;
-            List<Match> actual = target.GenerateSingleRoundResult(matchStrategy, competitors, fractionOfPartialRound);
+            const double FractionOfPartialRound = 0.8;
+            List<Match> actual = target.GenerateSingleRoundResult(matchStrategy, competitors, FractionOfPartialRound);
 
             Assert.AreEqual(12, actual.Count);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void GenerateResultTest_MultipleRoundsPartialRoundNonRandomMatches()
         {
-            RrTRS trs = new RrTRS(2.5);
-            MatchStrategy matchStrategy = new NonRandomMS();
-            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
+            var trs = new RrTRS(2.5);
+            MatchStrategy matchStrategy = new NonRandomMs();
+            var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
 
-            CompetitorRanks ranks = trs.GenerateResult(matchStrategy, competitors);
+            var ranks = trs.GenerateResult(matchStrategy, competitors);
 
             Assert.AreEqual(36, trs.Matches.Count);
 
@@ -220,26 +286,26 @@ namespace TournamentSimulation.Test
             Assert.AreEqual(6, ranks[competitors[5]]);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void GenerateResultTest_MultipleRoundsNonRandomMatches()
         {
-            RrTRS trs = new RrTRS(2.0);
-            MatchStrategy matchStrategy = new NonRandomMS();
-            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
+            var trs = new RrTRS(2.0);
+            MatchStrategy matchStrategy = new NonRandomMs();
+            var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
 
-            CompetitorRanks ranks = trs.GenerateResult(matchStrategy, competitors);
+            var ranks = trs.GenerateResult(matchStrategy, competitors);
 
             Assert.AreEqual(30, trs.Matches.Count);
         }
 
-        [TestMethod()]
+        [TestMethod]
         public void GenerateResultTest_MultipleRoundsPartialRound_2_5()
         {
-            RrTRS trs = new RrTRS(2.5);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
-            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
+            var trs = new RrTRS(2.5);
+            MatchStrategy matchStrategy = new SimpleRandomMs();
+            var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(6);
 
-            CompetitorRanks ranks = trs.GenerateResult(matchStrategy, competitors);
+            var ranks = trs.GenerateResult(matchStrategy, competitors);
 
             Assert.AreEqual(36, trs.Matches.Count);
         }

@@ -88,7 +88,7 @@ namespace TournamentSimulation.StudyRunner
                 List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(i);
 
                 TournamentStrategy tournamentStrategy = new RandomTS();
-                MatchStrategy matchStrategy = new SimpleRandomMS();
+                MatchStrategy matchStrategy = new SimpleRandomMs();
 
                 RunStudy(competitors, tournamentStrategy, matchStrategy);
             }
@@ -101,7 +101,7 @@ namespace TournamentSimulation.StudyRunner
                 List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(i);
 
                 TournamentStrategy tournamentStrategy = new RrTS(1, 2);
-                MatchStrategy matchStrategy = new SimpleRandomMS();
+                MatchStrategy matchStrategy = new SimpleRandomMs();
 
                 RunStudy(competitors, tournamentStrategy, matchStrategy);
             }
@@ -114,7 +114,7 @@ namespace TournamentSimulation.StudyRunner
                 List<Competitor> competitors = Helpers.CompetitorListHelper.GetCompetitorsWithRandomRatings(_numberOfCompetitors);
 
                 TournamentStrategy tournamentStrategy = new RrTS(1, 2);
-                MatchStrategy matchStrategy = new SimpleRandomMS();
+                MatchStrategy matchStrategy = new SimpleRandomMs();
 
                 RunStudy(competitors, tournamentStrategy, matchStrategy);
             }
@@ -125,7 +125,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrTS(2, 2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -135,7 +135,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrTS(1, 2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -145,7 +145,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetReasonableGuessCompetitors_8();
 
             TournamentStrategy tournamentStrategy = new RrTS(1, 2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -155,7 +155,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new KoTS(2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -165,7 +165,7 @@ namespace TournamentSimulation.StudyRunner
             var competitors = Helpers.CompetitorListHelper.GetCompetitorsWithTwoDominants_16();
 
             TournamentStrategy tournamentStrategy = new KoTS(2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -175,7 +175,7 @@ namespace TournamentSimulation.StudyRunner
             var competitors = Helpers.CompetitorListHelper.GetCompetitorsWithTwoDominants_16();
 
             TournamentStrategy tournamentStrategy = new RrTS(2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -185,7 +185,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetCompetitorsWithRandomizedSeeds(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new KoTS(2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -195,7 +195,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrTS(1, 1);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -205,7 +205,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrTS(2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -215,7 +215,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrTS(2.5);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -225,7 +225,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrTS(2.1);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -235,7 +235,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrTS(3);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -245,7 +245,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrTS(10);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -255,7 +255,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrKoSfFiTS(2.0, 2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -266,7 +266,7 @@ namespace TournamentSimulation.StudyRunner
             
 
             TournamentStrategy tournamentStrategy = new RrKoSf5PfFiTS(2.0, 2, 2, 2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -276,7 +276,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrKoSfPfFiTS(2.0, 2, 2, 2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -286,7 +286,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrKoSfPfFiRrTS(2.0, 2, 2, 2, 2.0);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -296,7 +296,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrRrSf5KoFiPfTS(2.0, 1.0, 2, 2, 1.0);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -306,7 +306,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrKo1TS(2, 2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }
@@ -316,7 +316,7 @@ namespace TournamentSimulation.StudyRunner
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetEvenlySpacedCompetitors(_numberOfCompetitors);
 
             TournamentStrategy tournamentStrategy = new RrKo1aTS(2, 2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             RunStudy(competitors, tournamentStrategy, matchStrategy);
         }

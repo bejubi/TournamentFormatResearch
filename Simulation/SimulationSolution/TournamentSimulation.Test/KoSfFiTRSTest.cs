@@ -71,7 +71,7 @@ namespace TournamentSimulation.Test
         {
             KoSfFiTRS target = new KoSfFiTRS(2);
 
-            MatchStrategy matchStrategy = new NonRandomMS();
+            MatchStrategy matchStrategy = new NonRandomMs();
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
 
             CompetitorRanks ranks = target.GenerateResult(matchStrategy, competitors);

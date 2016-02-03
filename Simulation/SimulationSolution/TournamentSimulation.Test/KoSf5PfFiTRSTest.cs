@@ -1,9 +1,7 @@
 ﻿using TournamentSimulation.TournamentRoundStrategies;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System;
+
 using TournamentSimulation.MatchStrategies;
-using TournamentSimulation;
-using System.Collections.Generic;
 
 namespace TournamentSimulation.Test
 {
@@ -15,25 +13,15 @@ namespace TournamentSimulation.Test
     public class KoSf5PfFiTRSTest
     {
         #region Setup
-        private TestContext testContextInstance;
 
         /// <summary>
         ///Gets or sets the test context which provides
         ///information about and functionality for the current test run.
         ///</summary>
-        public TestContext TestContext
-        {
-            get
-            {
-                return testContextInstance;
-            }
-            set
-            {
-                testContextInstance = value;
-            }
-        }
+        public TestContext TestContext { get; set; }
 
         #region Additional test attributes
+
         // 
         //You can use the following additional attributes as you write your tests:
         //
@@ -61,28 +49,30 @@ namespace TournamentSimulation.Test
         //{
         //}
         //
+
         #endregion
+        
         #endregion
 
         /// <summary>
         ///A test for GenerateResult
         ///</summary>
-        [TestMethod()]
+        [TestMethod]
         public void GenerateResultTest()
         {
            
         }
 
-       /// <summary>
+        /// <summary>
         ///A test for GetTournamentRoundRanks
         ///</summary>
-        [TestMethod()]
+        [TestMethod]
         public void GetTournamentRoundRanksTest()
         {
-            KoSf5PfFiTRS target = new KoSf5PfFiTRS(2, 2, 2);
-            MatchStrategy matchStrategy = new NonRandomMS();
-            List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(5);
-            CompetitorRanks competitorRanks = target.GenerateResult(matchStrategy, competitors);
+            var target = new KoSf5PfFiTRS(2, 2, 2);
+            MatchStrategy matchStrategy = new NonRandomMs();
+            var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(5);
+            var competitorRanks = target.GenerateResult(matchStrategy, competitors);
 
             Assert.AreEqual(1, competitorRanks[competitors[0]]);
             Assert.AreEqual(2, competitorRanks[competitors[1]]);

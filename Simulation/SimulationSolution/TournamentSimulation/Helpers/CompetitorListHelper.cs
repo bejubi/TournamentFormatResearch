@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace TournamentSimulation.Helpers
 {
@@ -11,7 +9,7 @@ namespace TournamentSimulation.Helpers
         {
             var competitors = new List<Competitor>();
 
-            char name = 'A';
+            var name = 'A';
             foreach (var rating in ratings)
             {
                 competitors.Add(new Competitor { Name = name.ToString(), TheoreticalRating = rating });
@@ -23,7 +21,7 @@ namespace TournamentSimulation.Helpers
 
         public static List<Competitor> GetReasonableGuessCompetitors_8()
         {
-            var ratings = new int[]
+            var ratings = new[]
             {
                 95, // bill hardesty
                 50, // nate hollerbach
@@ -40,7 +38,7 @@ namespace TournamentSimulation.Helpers
 
         public static List<Competitor> GetCompetitorsWithTwoDominants_16()
         {
-            var ratings = new int[] { 90, 60, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 };
+            var ratings = new[] { 90, 60, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 };
 
             return GetCompetitors(ratings);
         }
@@ -51,7 +49,7 @@ namespace TournamentSimulation.Helpers
             var randomRatings = new int[numberOfCompetitors];
 
             var numberGenerator = new Random();
-            for (int i = 0; i < numberOfCompetitors; i++)
+            for (var i = 0; i < numberOfCompetitors; i++)
             {
                 randomRatings[i] = numberGenerator.Next(1, 101);
             }
@@ -65,7 +63,7 @@ namespace TournamentSimulation.Helpers
 
             var randomizedCompetitors = new List<Competitor>();
 
-            foreach (int randomIndex in RandomHelper.GetRandomSequenceWithoutReplacement(1001, orderedCompetitors.Count))
+            foreach (var randomIndex in RandomHelper.GetRandomSequenceWithoutReplacement(1001, orderedCompetitors.Count))
             {
                 randomizedCompetitors.Add(orderedCompetitors[randomIndex]);
             }
@@ -76,8 +74,8 @@ namespace TournamentSimulation.Helpers
         public static List<Competitor> GetStandardCompetitors(int numberOfCompetitors)
         {
             var ratings = new int[numberOfCompetitors];
-            int i = 0;
-            for (int competitorRating = numberOfCompetitors; competitorRating > 0; competitorRating--)
+            var i = 0;
+            for (var competitorRating = numberOfCompetitors; competitorRating > 0; competitorRating--)
             {
                 ratings[i++] = competitorRating * 10;
             }
@@ -89,8 +87,8 @@ namespace TournamentSimulation.Helpers
         {
             var ratings = new int[numberOfCompetitors];
 
-            int competitorRating = 100;
-            for (int i = numberOfCompetitors; i > 0; i--)
+            var competitorRating = 100;
+            for (var i = numberOfCompetitors; i > 0; i--)
             {
                 ratings[numberOfCompetitors - i] = competitorRating;
                 competitorRating = Convert.ToInt32(Math.Round(Convert.ToDouble(competitorRating) * 0.75));

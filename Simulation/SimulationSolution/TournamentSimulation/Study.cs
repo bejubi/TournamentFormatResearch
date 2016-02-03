@@ -58,13 +58,13 @@ namespace TournamentSimulation
         {
             get
             {
-                StringBuilder resultsStringBuilder = new StringBuilder();
+                var resultsStringBuilder = new StringBuilder();
 
-                string tournamentStrategy = _thisTournamentStrategy.GetType().ToString();
+                var tournamentStrategy = _thisTournamentStrategy.GetType().ToString();
                 tournamentStrategy = tournamentStrategy.Remove(0, tournamentStrategy.LastIndexOf('.') + 1);
                 tournamentStrategy = tournamentStrategy.Replace("TS", "");
 
-                string matchStrategy = _matchStrategy.GetType().ToString();
+                var matchStrategy = _matchStrategy.GetType().ToString();
                 matchStrategy = matchStrategy.Remove(0, matchStrategy.LastIndexOf('.') + 1);
                 matchStrategy = matchStrategy.Replace("MS", "");
 
@@ -79,17 +79,16 @@ namespace TournamentSimulation
         {
             get
             {
-                StringBuilder resultsStringBuilder = new StringBuilder();
+                var resultsStringBuilder = new StringBuilder();
 
                 resultsStringBuilder.Append(string.Format("\r\n\r\nCompetitors: {0}", _competitors.Count));
 
                 //-------------------------------------------------------------------
-                double[] tournamentScores;
 
                 resultsStringBuilder.Append("\r\n\r\nAverage Tournament Mean Abosolute Difference (MAD)");
 
                 resultsStringBuilder.Append("\r\n\tall competitors, standardized(mean, std dev):");
-                tournamentScores = _tournamentMAD_Adjusteds.ToArray();
+                var tournamentScores = this._tournamentMAD_Adjusteds.ToArray();
 
                 resultsStringBuilder.Append(string.Format("\t{0}\t{1}",
                     Math.Round(new Helpers.StatisticsHelper(tournamentScores).Mean, 3),
@@ -115,7 +114,7 @@ namespace TournamentSimulation
                     resultsStringBuilder.Append("\r\n\ttop 2 competitors (mean, std dev):");
                     tournamentScores = _tournaments
                        .Select(x => x.GetTournamentMAD(2))
-                       .ToArray<double>();
+                       .ToArray();
 
                     resultsStringBuilder.Append(string.Format("\t\t{0}\t{1}",
                         Math.Round(new Helpers.StatisticsHelper(tournamentScores).Mean, 3),
@@ -125,7 +124,7 @@ namespace TournamentSimulation
                     resultsStringBuilder.Append("\r\n\ttop 1 competitor (mean, std dev):");
                     tournamentScores = _tournaments
                        .Select(x => x.GetTournamentMAD(1))
-                       .ToArray<double>();
+                       .ToArray();
 
                     resultsStringBuilder.Append(string.Format("\t\t{0}\t{1}",
                         Math.Round(new Helpers.StatisticsHelper(tournamentScores).Mean, 3),
@@ -143,7 +142,7 @@ namespace TournamentSimulation
         {
             get
             {
-                double adjustedDeterminant = CombinedTournamentTransformationMatrix.Determinant();
+                var adjustedDeterminant = CombinedTournamentTransformationMatrix.Determinant();
                 adjustedDeterminant = Math.Abs(adjustedDeterminant);
                 adjustedDeterminant = Math.Pow(adjustedDeterminant, (1.0 / Convert.ToDouble(_competitors.Count)));
                 adjustedDeterminant = Math.Round(adjustedDeterminant, 3);
@@ -156,7 +155,7 @@ namespace TournamentSimulation
         {
             get
             {
-                Matrix combinedMatrix = _combinedTournamentTransformationMatrix.Clone();
+                var combinedMatrix = _combinedTournamentTransformationMatrix.Clone();
 
                 combinedMatrix.Multiply(1.0 / Convert.ToDouble(_currentIteration));
 
@@ -168,8 +167,8 @@ namespace TournamentSimulation
         {
             get
             {
-                StringBuilder resultsStringBuilder = new StringBuilder();
-                Matrix displayMatrix = CombinedTournamentTransformationMatrix.Clone();
+                var resultsStringBuilder = new StringBuilder();
+                var displayMatrix = CombinedTournamentTransformationMatrix.Clone();
                 displayMatrix.Multiply(100.0);
 
                 resultsStringBuilder.Append(string.Format("\r\n\r\nCombined transformation matrix:\r\n{0}", GetMatrixOutput(displayMatrix)));
@@ -182,18 +181,14 @@ namespace TournamentSimulation
         {
             get
             {
-                StringBuilder resultsStringBuilder = new StringBuilder();
+                var resultsStringBuilder = new StringBuilder();
 
                 resultsStringBuilder.Append("\r\n\r\nCompetitors (rating, initial rank, tournament rank mean and std. dev.):");
                 _competitors.Sort((x, y) => y.TheoreticalRating.CompareTo(x.TheoreticalRating));
 
-                foreach (Competitor competitor in _competitors)
+                foreach (var competitor in _competitors)
                 {
-                    string initialRank;
-                    if (competitor.InitialRank != null)
-                        initialRank = competitor.InitialRank.ToString();
-                    else
-                        initialRank = "-";
+                    var initialRank = competitor.InitialRank != null ? competitor.InitialRank.ToString() : "-";
 
                     resultsStringBuilder.Append(string.Format("\r\n{0}:\t{1}\t{2}\t{3}\t{4}",
                         competitor.Name, competitor.TheoreticalRating, initialRank, Math.Round(competitor.TournamentRankMean, 2), Math.Round(competitor.TournamentRankStandardDeviation, 2)));
@@ -207,26 +202,22 @@ namespace TournamentSimulation
         {
             get
             {
-                StringBuilder displayResults = new StringBuilder();
+                var displayResults = new StringBuilder();
 
                 displayResults.Append("\r\n\r\nRank Frequencies:");
 
-                foreach (Competitor competitor in _competitors)
+                foreach (var competitor in _competitors)
                 {
-                    string initialRank;
-                    if (competitor.InitialRank != null)
-                        initialRank = competitor.InitialRank.ToString();
-                    else
-                        initialRank = "-";
+                    var initialRank = competitor.InitialRank != null ? competitor.InitialRank.ToString() : "-";
 
                     displayResults.Append(string.Format("\r\n\r\n{0}:", competitor.Name));
 
                     // first, fill in the results gaps
-                    Dictionary<int, int> rankFrequencies = new Dictionary<int, int>();
-                    int lastFrequency = 0;
-                    foreach (KeyValuePair<int, int> rankFrequency in competitor.RankFrequencies.OrderBy(x => x.Key))
+                    var rankFrequencies = new Dictionary<int, int>();
+                    var lastFrequency = 0;
+                    foreach (var rankFrequency in competitor.RankFrequencies.OrderBy(x => x.Key))
                     {
-                        for (int i = lastFrequency + 1; i < rankFrequency.Key; i++)
+                        for (var i = lastFrequency + 1; i < rankFrequency.Key; i++)
                         {
                             rankFrequencies.Add(i, 0);
                         }
@@ -235,15 +226,15 @@ namespace TournamentSimulation
                         lastFrequency = rankFrequency.Key;
                     }
 
-                    for (int i = lastFrequency + 1; i < _competitors.Count + 1; i++)
+                    for (var i = lastFrequency + 1; i < _competitors.Count + 1; i++)
                     {
                         rankFrequencies.Add(i, 0);
                     }
 
                     // create a graph of asterisks
-                    foreach (KeyValuePair<int, int> rankFrequency in rankFrequencies.OrderBy(x => x.Key))
+                    foreach (var rankFrequency in rankFrequencies.OrderBy(x => x.Key))
                     {
-                        double frequencyPercentage = Math.Round(Convert.ToDouble(rankFrequency.Value) / Convert.ToDouble(_currentIteration) * 100);
+                        var frequencyPercentage = Math.Round(Convert.ToDouble(rankFrequency.Value) / Convert.ToDouble(_currentIteration) * 100);
 
                         displayResults.Append(string.Format("\r\n{0} {1}\t", rankFrequency.Key, new string('*', Convert.ToInt32(frequencyPercentage))));
                     }
@@ -257,29 +248,28 @@ namespace TournamentSimulation
         {
             get
             {
-                StringBuilder displayResults = new StringBuilder();
+                var displayResults = new StringBuilder();
 
                 displayResults.Append("\r\n\r\nRaw Results:");
 
                 _competitors.Sort((x, y) => y.TheoreticalRating.CompareTo(x.TheoreticalRating));
 
-                foreach (Competitor competitor in _competitors)
+                foreach (var competitor in _competitors)
                 {
                     displayResults.Append("\r\n");
                     displayResults.Append(string.Format("{0}, ", competitor.Name));
 
-                    int i = 0;
-                    foreach (KeyValuePair<int, int> tournamentRank in competitor.TournamentRanks.OrderByDescending(x => x.Key))
+                    var i = 0;
+                    foreach (var tournamentRank in competitor.TournamentRanks.OrderByDescending(x => x.Key))
                     {
                         displayResults.Append(string.Format("{0}, ", tournamentRank.Value));
 
                         i++;
 
-                        if (i > _maxRawTournamentResultsToDisplay)
-                        {
-                            displayResults.Append("...");
-                            break;
-                        }
+                        if (i <= _maxRawTournamentResultsToDisplay) continue;
+
+                        displayResults.Append("...");
+                        break;
                     }
 
                     // remove the last comma
@@ -292,9 +282,6 @@ namespace TournamentSimulation
         }
 
         #endregion
-
-        #region Constructors
-        private Study() { }
 
         public Study(TournamentStrategy tournamentStrategy, MatchStrategy matchStrategy, bool isLowMemoryMode)
         {
@@ -310,27 +297,25 @@ namespace TournamentSimulation
             _tournamentMAD_Adjusted_WithOddCompetitorAdjustments = new List<double>();
 
         }
-        #endregion
 
         public event IteratedEventHandler Iterated;
 
         protected virtual void OnIterated(EventArgs e)
         {
-            if (Iterated != null)
-            {
-                _currentIteration++;
+            if (this.Iterated == null) return;
 
-                if (_currentIteration % 1000 == 0)
-                    Iterated(this, new IteratedEventArgs(_currentIteration));
-            }
+            this._currentIteration++;
+
+            if (this._currentIteration % 1000 == 0)
+                this.Iterated(this, new IteratedEventArgs(this._currentIteration));
         }
 
-        public void Run(List<TournamentSimulation.Competitor> competitors, int numberOfIterations)
+        public void Run(List<Competitor> competitors, int numberOfIterations)
         {
             Run(competitors, numberOfIterations, false);
         }
 
-        public void Run(List<TournamentSimulation.Competitor> competitors, int numberOfIterations, bool isJumbleCompetitorSeeds)
+        public void Run(List<Competitor> competitors, int numberOfIterations, bool isJumbleCompetitorSeeds)
         {
             // TODO: look at reducing memory usage by storing results after the run and destroying the actual tournament runs
             _competitors = competitors;
@@ -338,8 +323,8 @@ namespace TournamentSimulation
 
             if (!isJumbleCompetitorSeeds)
             {
-                int rank = 1;
-                foreach (Competitor competitor in _competitors)
+                var rank = 1;
+                foreach (var competitor in _competitors)
                 {
                     if (competitor.InitialRank == null)
                         competitor.InitialRank = rank++;
@@ -347,18 +332,13 @@ namespace TournamentSimulation
             }
 
             // run the tournaments
-            for (int i = 0; i < numberOfIterations; i++)
+            for (var i = 0; i < numberOfIterations; i++)
             {
                 OnIterated(EventArgs.Empty);
 
-                Tournament tournament = new Tournament(_thisTournamentStrategy, _matchStrategy);
+                var tournament = new Tournament(_thisTournamentStrategy, _matchStrategy);
 
-                List<Competitor> tournamentCompetitors;
-
-                if (isJumbleCompetitorSeeds)
-                    tournamentCompetitors = JumbleCompetitors(i, competitors);
-                else
-                    tournamentCompetitors = competitors;
+                var tournamentCompetitors = isJumbleCompetitorSeeds ? JumbleCompetitors(i, competitors) : competitors;
 
                 tournament.Run(tournamentCompetitors);
 
@@ -376,11 +356,11 @@ namespace TournamentSimulation
         // TODO: change the rating partway through and test against second rating
         // TODO: check to make sure frequencies for each rank add up correctly
 
-        private List<Competitor> JumbleCompetitors(int randomSeed, List<Competitor> competitors)
+        private static List<Competitor> JumbleCompetitors(int randomSeed, IList<Competitor> competitors)
         {
-            List<Competitor> randomizedCompetitors = new List<Competitor>();
+            var randomizedCompetitors = new List<Competitor>();
 
-            foreach (int randomIndex in Helpers.RandomHelper.GetRandomSequenceWithoutReplacement(randomSeed, competitors.Count))
+            foreach (var randomIndex in Helpers.RandomHelper.GetRandomSequenceWithoutReplacement(randomSeed, competitors.Count))
             {
                 randomizedCompetitors.Add(competitors[randomIndex]);
             }
@@ -388,16 +368,16 @@ namespace TournamentSimulation
             return randomizedCompetitors;
         }
 
-        private string GetMatrixOutput(Matrix matrix)
+        private static string GetMatrixOutput(Matrix matrix)
         {
-            StringBuilder matrixPrint = new StringBuilder();
+            var matrixPrint = new StringBuilder();
 
-            for (int i = 0; i < matrix.RowCount; i++)
+            for (var i = 0; i < matrix.RowCount; i++)
             {
                 if (i > 0)
                     matrixPrint.Append("\r\n");
 
-                for (int j = 0; j < matrix.ColumnCount; j++)
+                for (var j = 0; j < matrix.ColumnCount; j++)
                 {
                     if (j > 0)
                         matrixPrint.Append("  ");

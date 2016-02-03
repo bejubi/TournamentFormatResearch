@@ -2,7 +2,6 @@
 
 namespace TournamentSimulation.Helpers
 {
-
     /// <summary>
     /// Basic statistics functions
     /// </summary>
@@ -51,35 +50,39 @@ namespace TournamentSimulation.Helpers
             {
                 try
                 {
-                    double[] i = new double[_list.Length];
+                    var i = new double[_list.Length];
                     _list.CopyTo(i, 0);
                     Sort(i);
-                    double val_mode = i[0], help_val_mode = i[0];
-                    int old_counter = 0, new_counter = 0;
-                    int j = 0;
+                    double valMode = i[0], helpValMode = i[0];
+                    int oldCounter = 0, newCounter = 0;
+                    var j = 0;
+                    
                     for (; j <= i.Length - 1; j++)
-                        if (i[j] == help_val_mode) new_counter++;
-                        else if (new_counter > old_counter)
+                    {
+                        if (i[j] == helpValMode) newCounter++;
+                        else if (newCounter > oldCounter)
                         {
-                            old_counter = new_counter;
-                            new_counter = 1;
-                            help_val_mode = i[j];
-                            val_mode = i[j - 1];
+                            oldCounter = newCounter;
+                            newCounter = 1;
+                            helpValMode = i[j];
+                            valMode = i[j - 1];
                         }
-                        else if (new_counter == old_counter)
+                        else if (newCounter == oldCounter)
                         {
-                            val_mode = double.NaN;
-                            help_val_mode = i[j];
-                            new_counter = 1;
+                            valMode = double.NaN;
+                            helpValMode = i[j];
+                            newCounter = 1;
                         }
                         else
                         {
-                            help_val_mode = i[j];
-                            new_counter = 1;
+                            helpValMode = i[j];
+                            newCounter = 1;
                         }
-                    if (new_counter > old_counter) val_mode = i[j - 1];
-                    else if (new_counter == old_counter) val_mode = double.NaN;
-                    return val_mode;
+                    }
+
+                    if (newCounter > oldCounter) valMode = i[j - 1];
+                    else if (newCounter == oldCounter) valMode = double.NaN;
+                    return valMode;
                 }
                 catch
                 {
@@ -98,8 +101,8 @@ namespace TournamentSimulation.Helpers
         {
             get
             {
-                double minimum = double.PositiveInfinity;
-                for (int i = 0; i <= _list.Length - 1; i++)
+                var minimum = double.PositiveInfinity;
+                for (var i = 0; i <= _list.Length - 1; i++)
                     if (_list[i] < minimum) minimum = _list[i];
                 return minimum;
             }
@@ -108,8 +111,8 @@ namespace TournamentSimulation.Helpers
         {
             get
             {
-                double maximum = double.NegativeInfinity;
-                for (int i = 0; i <= _list.Length - 1; i++)
+                var maximum = double.NegativeInfinity;
+                for (var i = 0; i <= _list.Length - 1; i++)
                     if (_list[i] > maximum) maximum = _list[i];
                 return maximum;
             }
@@ -142,8 +145,11 @@ namespace TournamentSimulation.Helpers
                 try
                 {
                     double sum = 0;
-                    for (int i = 0; i <= _list.Length - 1; i++)
+                    for (var i = 0; i <= _list.Length - 1; i++)
+                    {
                         sum += _list[i];
+                    }
+                    
                     return sum / _list.Length;
                 }
                 catch
@@ -159,6 +165,7 @@ namespace TournamentSimulation.Helpers
                 return (Max - Min);
             }
         }
+
         public double InterquartileRange
         {
             get
@@ -180,7 +187,7 @@ namespace TournamentSimulation.Helpers
                 try
                 {
                     double s = 0;
-                    for (int i = 0; i <= _list.Length - 1; i++)
+                    for (var i = 0; i <= _list.Length - 1; i++)
                         s += Math.Pow(_list[i], 2);
                     return (s - _list.Length * Math.Pow(Mean, 2)) / (_list.Length - 1);
                 }
@@ -217,7 +224,8 @@ namespace TournamentSimulation.Helpers
             try
             {
                 if (Exists(member)) return (member - Mean) / StandardDeviation;
-                else return double.NaN;
+                
+                return double.NaN;
             }
             catch
             {
@@ -230,11 +238,11 @@ namespace TournamentSimulation.Helpers
             try
             {
                 if (s1.Length != s2.Length) return double.NaN;
-                int len = s1.Length;
-                double sum_mul = 0;
-                for (int i = 0; i <= len - 1; i++)
-                    sum_mul += (s1._list[i] * s2._list[i]);
-                return (sum_mul - len * s1.Mean * s2.Mean) / (len - 1);
+                var len = s1.Length;
+                double sumMul = 0;
+                for (var i = 0; i <= len - 1; i++)
+                    sumMul += (s1._list[i] * s2._list[i]);
+                return (sumMul - len * s1.Mean * s2.Mean) / (len - 1);
             }
             catch
             {
@@ -273,16 +281,18 @@ namespace TournamentSimulation.Helpers
         }
 
         #region Helper Methods
+
         private double Qi(double i)
         {
             try
             {
-                double[] j = new double[_list.Length];
+                var j = new double[_list.Length];
                 _list.CopyTo(j, 0);
                 Sort(j);
                 if (Math.Ceiling(_list.Length * i) == _list.Length * i)
                     return (j[(int)(_list.Length * i - 1)] + j[(int)(_list.Length * i)]) / 2;
-                else return j[((int)(Math.Ceiling(_list.Length * i))) - 1];
+                
+                return j[((int)(Math.Ceiling(this._list.Length * i))) - 1];
             }
             catch
             {
@@ -292,56 +302,58 @@ namespace TournamentSimulation.Helpers
 
         private void Sort(double[] i)
         {
-            double[] temp = new double[i.Length];
+            var temp = new double[i.Length];
             MergeSort(i, temp, 0, i.Length - 1);
         }
 
         private void MergeSort(double[] source, double[] temp, int left, int right)
         {
-            int mid;
-            if (left < right)
-            {
-                mid = (left + right) / 2;
-                MergeSort(source, temp, left, mid);
-                MergeSort(source, temp, mid + 1, right);
-                Merge(source, temp, left, mid + 1, right);
-            }
+            if (left >= right) return;
+
+            var mid = (left + right) / 2;
+            this.MergeSort(source, temp, left, mid);
+            this.MergeSort(source, temp, mid + 1, right);
+            Merge(source, temp, left, mid + 1, right);
         }
 
-        private void Merge(double[] source, double[] temp, int left, int mid, int right)
+        private static void Merge(double[] source, double[] temp, int left, int mid, int right)
         {
-            int i, left_end, num_elements, tmp_pos;
-            left_end = mid - 1;
-            tmp_pos = left;
-            num_elements = right - left + 1;
-            while ((left <= left_end) && (mid <= right))
+            int i;
+            var leftEnd = mid - 1;
+            var tmpPos = left;
+            var numElements = right - left + 1;
+
+            while ((left <= leftEnd) && (mid <= right))
             {
                 if (source[left] <= source[mid])
                 {
-                    temp[tmp_pos] = source[left];
-                    tmp_pos++;
+                    temp[tmpPos] = source[left];
+                    tmpPos++;
                     left++;
                 }
                 else
                 {
-                    temp[tmp_pos] = source[mid];
-                    tmp_pos++;
+                    temp[tmpPos] = source[mid];
+                    tmpPos++;
                     mid++;
                 }
             }
-            while (left <= left_end)
+
+            while (left <= leftEnd)
             {
-                temp[tmp_pos] = source[left];
+                temp[tmpPos] = source[left];
                 left++;
-                tmp_pos++;
+                tmpPos++;
             }
+
             while (mid <= right)
             {
-                temp[tmp_pos] = source[mid];
+                temp[tmpPos] = source[mid];
                 mid++;
-                tmp_pos++;
+                tmpPos++;
             }
-            for (i = 1; i <= num_elements; i++)
+
+            for (i = 1; i <= numElements; i++)
             {
                 source[right] = temp[right];
                 right--;
@@ -350,14 +362,14 @@ namespace TournamentSimulation.Helpers
 
         private bool Exists(double member)
         {
-            bool is_exist = false;
-            int i = 0;
-            while (i <= _list.Length - 1 && !is_exist)
+            var isExist = false;
+            var i = 0;
+            while (i <= _list.Length - 1 && !isExist)
             {
-                is_exist = (_list[i] == member);
+                isExist = (_list[i] == member);
                 i++;
             }
-            return is_exist;
+            return isExist;
         }
 
         private double Covariance(StatisticsHelper s)
@@ -365,11 +377,12 @@ namespace TournamentSimulation.Helpers
             try
             {
                 if (this.Length != s.Length) return double.NaN;
-                int len = this.Length;
-                double sum_mul = 0;
-                for (int i = 0; i <= len - 1; i++)
-                    sum_mul += (this._list[i] * s._list[i]);
-                return (sum_mul - len * this.Mean * s.Mean) / (len - 1);
+                var len = this.Length;
+                double sumMul = 0;
+                for (var i = 0; i <= len - 1; i++)
+                    sumMul += (this._list[i] * s._list[i]);
+
+                return (sumMul - len * this.Mean * s.Mean) / (len - 1);
             }
             catch
             {
@@ -383,13 +396,13 @@ namespace TournamentSimulation.Helpers
             {
                 if (this.Length != design.Length) return double.NaN;
 
-                int len = this.Length;
-                double sum_diff = 0;
+                var len = this.Length;
+                double sumDiff = 0;
 
-                for (int i = 0; i < len; i++)
-                    sum_diff += Math.Abs(this._list[i] - design._list[i]);
+                for (var i = 0; i < len; i++)
+                    sumDiff += Math.Abs(this._list[i] - design._list[i]);
 
-                return sum_diff / len;
+                return sumDiff / len;
             }
             catch
             {
@@ -425,6 +438,7 @@ namespace TournamentSimulation.Helpers
         {
             return this.Mean - this.a(design) * design.Mean;
         }
+
         #endregion
     }
 }

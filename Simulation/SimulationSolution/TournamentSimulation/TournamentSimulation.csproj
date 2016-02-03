@@ -75,8 +75,8 @@
     <Compile Include="CompetitorPoints.cs" />
     <Compile Include="CompetitorRanks.cs" />
     <Compile Include="MatchStrategies\MatchStrategy.cs" />
-    <Compile Include="MatchStrategies\NonRandomMS.cs" />
-    <Compile Include="MatchStrategies\SimpleRandomMS.cs" />
+    <Compile Include="MatchStrategies\NonRandomMs.cs" />
+    <Compile Include="MatchStrategies\SimpleRandomMs.cs" />
     <Compile Include="Helpers\RandomHelper.cs" />
     <Compile Include="Helpers\StatisticsHelper.cs" />
     <Compile Include="TournamentRoundStrategies\KoSf5PfFiTRS.cs" />

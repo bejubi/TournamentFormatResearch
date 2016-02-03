@@ -1,18 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace TournamentSimulation.MatchStrategies
+﻿namespace TournamentSimulation.MatchStrategies
 {
     /// <summary>
     /// Simply hands out results in the order the competitors are passed in.
     /// </summary>
-    class NonRandomMS : MatchStrategy
+    class NonRandomMs : MatchStrategy
     {
         public override CompetitorRanks GenerateResult(int winsToClinchMatch, Competitor competitorA, Competitor competitorB)
         {
-            CompetitorRanks ranks = new CompetitorRanks();
+            var ranks = new CompetitorRanks();
             
             if (competitorA.TheoreticalRating > competitorB.TheoreticalRating)
             {

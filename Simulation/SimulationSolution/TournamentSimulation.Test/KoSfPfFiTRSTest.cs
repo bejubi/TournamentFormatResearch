@@ -76,7 +76,7 @@ namespace TournamentSimulation.Test
             int winsToClinchPetitMatch = 2;
             KoSfPfFiTRS_Accessor knockoutSemisFinalsPetitsTRS = new KoSfPfFiTRS_Accessor(winsToClinchSemifinalMatch, winsToClinchFinalsMatch, winsToClinchPetitMatch);
 
-            MatchStrategy matchStrategy = new NonRandomMS();
+            MatchStrategy matchStrategy = new NonRandomMs();
             List<Competitor> competitors = new List<Competitor>();
             competitors.Add(new Competitor() { Name = "A", TheoreticalRating = 90 });
             competitors.Add(new Competitor() { Name = "B", TheoreticalRating = 80 });

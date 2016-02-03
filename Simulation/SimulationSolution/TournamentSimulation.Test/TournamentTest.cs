@@ -76,7 +76,7 @@ namespace TournamentSimulation.Test
         {
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
 
-            Tournament tournament = new Tournament(new KoTS(), new NonRandomMS());
+            Tournament tournament = new Tournament(new KoTS(), new NonRandomMs());
             tournament.Run(competitors);
         }
 
@@ -85,7 +85,7 @@ namespace TournamentSimulation.Test
         {
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
 
-            Tournament tournament = new Tournament(new KoTS(), new NonRandomMS());
+            Tournament tournament = new Tournament(new KoTS(), new NonRandomMs());
             tournament.Run(competitors);
         }
 
@@ -94,7 +94,7 @@ namespace TournamentSimulation.Test
         {
             List<Competitor> competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
 
-            Tournament tournament = new Tournament(new RrTS(), new SimpleRandomMS());
+            Tournament tournament = new Tournament(new RrTS(), new SimpleRandomMs());
             tournament.Run(competitors);
         }
     }

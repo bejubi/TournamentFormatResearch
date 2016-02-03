@@ -1,7 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace TournamentSimulation.MatchStrategies
 {
@@ -13,21 +10,21 @@ namespace TournamentSimulation.MatchStrategies
     /// If CompetitorA.Rating = 40 and CompetitorB.Rating = 60, we would expect
     /// CompetitorA to win 40/100 = 40% of the time
     /// </example>
-    public class SimpleRandomMS : MatchStrategy
+    public class SimpleRandomMs : MatchStrategy
     {
-        // create the randomNumberGenerator statically, so that we're getting a true .Next
-        static Random randomNumberGenerator = new Random();
+        // create the RandomNumberGenerator statically, so that we're getting a true .Next
+        static readonly Random RandomNumberGenerator = new Random();
 
         public override CompetitorRanks GenerateResult(int winsToClinchMatch, Competitor competitorA, Competitor competitorB)
         {
-            int competitorAWins = 0;
-            int competitorBWins = 0;
+            var competitorAWins = 0;
+            var competitorBWins = 0;
 
             while (competitorAWins < winsToClinchMatch && competitorBWins < winsToClinchMatch)
             {
 
-                double randomRatio = Convert.ToDouble(randomNumberGenerator.Next(0, 101)) / Convert.ToDouble(100);
-                double ratingRatio = Convert.ToDouble(competitorA.TheoreticalRating) / (Convert.ToDouble(competitorA.TheoreticalRating) + Convert.ToDouble(competitorB.TheoreticalRating));
+                var randomRatio = Convert.ToDouble(RandomNumberGenerator.Next(0, 101)) / Convert.ToDouble(100);
+                var ratingRatio = Convert.ToDouble(competitorA.TheoreticalRating) / (Convert.ToDouble(competitorA.TheoreticalRating) + Convert.ToDouble(competitorB.TheoreticalRating));
 
                 if (randomRatio < ratingRatio)
                     competitorAWins++;
@@ -35,7 +32,7 @@ namespace TournamentSimulation.MatchStrategies
                     competitorBWins++;
             }
 
-            CompetitorRanks ranks = new CompetitorRanks();
+            var ranks = new CompetitorRanks();
 
             if (competitorAWins > competitorBWins)
             {

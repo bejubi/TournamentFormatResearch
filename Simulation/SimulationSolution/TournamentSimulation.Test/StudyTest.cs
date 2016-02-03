@@ -74,7 +74,7 @@ namespace TournamentSimulation.Test
             var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
 
             TournamentStrategy tournamentStrategy = new RrKoSfFiTS(2.0, 2);
-            MatchStrategy matchStrategy = new NonRandomMS();
+            MatchStrategy matchStrategy = new NonRandomMs();
 
             Study study = new Study(tournamentStrategy, matchStrategy, false);
             study.Run(competitors, _numberOfTournamentIterations);
@@ -97,7 +97,7 @@ namespace TournamentSimulation.Test
             var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
 
             TournamentStrategy tournamentStrategy = new KoTS(2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             Study study = new Study(tournamentStrategy, matchStrategy, false);
             study.Run(competitors, _numberOfTournamentIterations);
@@ -117,7 +117,7 @@ namespace TournamentSimulation.Test
             var competitors = Helpers.CompetitorListHelper.GetStandardCompetitors(8);
 
             TournamentStrategy tournamentStrategy = new RrRrSf5KoFiPfTS(1.0, 1.0, 2, 2, 1.0);
-            MatchStrategy matchStrategy = new NonRandomMS();
+            MatchStrategy matchStrategy = new NonRandomMs();
 
             Study study = new Study(tournamentStrategy, matchStrategy, false);
             study.Run(competitors, _numberOfTournamentIterations);
@@ -131,7 +131,7 @@ namespace TournamentSimulation.Test
             var competitors = Helpers.CompetitorListHelper.GetCompetitorsWithTwoDominants_16();
 
             TournamentStrategy tournamentStrategy = new KoTS(2);
-            MatchStrategy matchStrategy = new SimpleRandomMS();
+            MatchStrategy matchStrategy = new SimpleRandomMs();
 
             var study = new Study(tournamentStrategy, matchStrategy, false);
             study.Run(competitors, _numberOfTournamentIterations);

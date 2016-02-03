@@ -1,17 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿using System.Collections.Generic;
 
 namespace TournamentSimulation
 {
     public class CompetitorRanks : Dictionary<Competitor, int>
     {
-        public CompetitorRanks() : base() { }
+        public CompetitorRanks() { }
 
         public CompetitorRanks(Dictionary<Competitor, int> competitorRanksDictionary)
         {
-            foreach (KeyValuePair<Competitor, int> competitorRank in competitorRanksDictionary)
+            foreach (var competitorRank in competitorRanksDictionary)
             {
                 this.Add(competitorRank.Key, competitorRank.Value);
             }

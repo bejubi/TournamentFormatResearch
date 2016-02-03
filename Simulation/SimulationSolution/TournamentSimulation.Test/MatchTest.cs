@@ -71,7 +71,7 @@ namespace TournamentSimulation.Test
             Competitor competitorA = new Competitor() { Name = "A", TheoreticalRating = 60 };
             Competitor competitorB = new Competitor() { Name = "B", TheoreticalRating = 50 };
 
-            Match match = new Match(new NonRandomMS(), 1);
+            Match match = new Match(new NonRandomMs(), 1);
             match.Run(competitorA, competitorB);
 
             Assert.AreEqual(competitorA, match.Winner);
@@ -84,7 +84,7 @@ namespace TournamentSimulation.Test
             Competitor competitorA = new Competitor() { Name = "A", TheoreticalRating = 50 };
             Competitor competitorB = new Competitor() { Name = "B", TheoreticalRating = 60 };
 
-            Match match = new Match(new NonRandomMS(), 1);
+            Match match = new Match(new NonRandomMs(), 1);
             match.Run(competitorA, competitorB);
 
             Assert.AreEqual(competitorB, match.Winner);
@@ -97,7 +97,7 @@ namespace TournamentSimulation.Test
             Competitor competitorA = new Competitor() { Name = "A", TheoreticalRating = 60 };
             Competitor competitorB = new Competitor() { Name = "B", TheoreticalRating = 40 };
 
-            Match match = new Match(new SimpleRandomMS(), 1);
+            Match match = new Match(new SimpleRandomMs(), 1);
 
             int wins = 0;
             for (int i = 0; i < 100; i++)
